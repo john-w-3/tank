@@ -10,8 +10,8 @@ Prices as of 2026-03-23. Buy these first; plants, food, and hardscape can wait u
 |---|------|------:|------|
 | ~~1~~ | ~~Aqueon Frameless 6G cube (11.5×11.5×11.5") + partial glass cover~~ | ~~$45~~ | **BOUGHT** |
 | 2 | Sponge filter (rated for ~10 gal) | ~$8 | — |
-| 3 | Air pump (small/quiet, e.g. USB nano) | ~$10 | — |
-| 4 | Airline tubing + check valve | ~$5 | — |
+| ~~3~~ | ~~NICREW Nano Silent Air Pump (0.3 L/min, piezoelectric, up to 10 gal) — includes air tube, check valve, air stone, suction cup~~ | ~~$13.99~~ | **BOUGHT** |
+| ~~4~~ | ~~Airline tubing + check valve~~ | ~~—~~ | **included with air pump** |
 | 5 | Cobalt Neo-Therm Pro 25W heater | $18.99 | [Amazon](https://www.amazon.com/Cobalt-Aquatics-Neo-Therm-Pro-Aquarium/dp/B09JQMW716) |
 | 6 | Digital aquarium thermometer | $9.99 | [Amazon](https://www.amazon.com/dp/B0B7LRM2KQ) |
 | 7 | CaribSea Peace River substrate 20 lb | $11.02 | [Amazon](https://www.amazon.com/CaribSea-SuperNaturals-Peace-River-Aquascaping/dp/B0002APMU6) |
