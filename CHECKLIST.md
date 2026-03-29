@@ -1,13 +1,13 @@
 # Shrimp Tank Setup Checklist
 
-5-gallon Neocaridina tank with nerite snails.
+6-gallon Neocaridina tank with nerite snails.
 
 ---
 
 ## Phase 1: Equipment
 
 ### Tank & Hardware
-- [ ] Tank — Fluval Spec V (5 gal, includes 3-stage rear-chamber filter + LED light) ~$125
+- [x] Tank — Aqueon Frameless 6G cube (11.5×11.5×11.5") with partial glass cover
 - [ ] Heater — 25W adjustable (Cobalt Neo-Therm 25W, Aqueon Pro 50W, or similar)
 - [ ] Thermometer — digital stick-on or submersible
 - [ ] Sponge pre-filter — for the filter intake (keeps baby shrimp safe)
@@ -47,7 +47,7 @@ Do these once you have all your equipment.
   - Mix RO water with GH/KH+ in a separate container first
   - Target GH: 6-8, KH: 2-4
 - [ ] Install heater — set to 72°F
-- [ ] Install filter (rear-chamber filter included with Fluval Spec V)
+- [ ] Install sponge filter + air pump
 - [ ] Attach sponge pre-filter to intake
 - [ ] Add plants — tie/glue to hardscape, don't bury rhizomes
 - [ ] Turn everything on, verify flow and temp

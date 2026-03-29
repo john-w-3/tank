@@ -8,7 +8,7 @@ Prices as of 2026-03-23. Buy these first; plants, food, and hardscape can wait u
 
 | # | Item | Price | Link |
 |---|------|------:|------|
-| 1 | Aqueon 6 gal cube (tank only, no lid/light) | ~$45 | — |
+| ~~1~~ | ~~Aqueon Frameless 6G cube (11.5×11.5×11.5") + partial glass cover~~ | ~~$45~~ | **BOUGHT** |
 | 2 | Sponge filter (rated for ~10 gal) | ~$8 | — |
 | 3 | Air pump (small/quiet, e.g. USB nano) | ~$10 | — |
 | 4 | Airline tubing + check valve | ~$5 | — |
