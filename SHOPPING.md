@@ -26,21 +26,31 @@ Plus a dedicated bucket or jug for water prep (~$5-10, any hardware store or dol
 
 ---
 
-## Austin Aqua-Dome (Local)
+## Local Fish Stores
+
+Price-check these before the Amazon order — supporting the LFS is always good, especially since you'll buy livestock there in Phase 4. Plants are better bought local so they arrive healthy.
+
+### Austin Aqua-Dome
 
 [Austin Aqua-Dome](https://www.austinaquadome.com) — 1604 Fort View Rd, Austin TX 78704 — (512) 442-1400
 
-Call them at (512) 442-1400 before placing the Amazon order — they might carry substrate, hardscape, and test kits at competitive prices, and it's worth supporting the LFS especially since you'll want to buy your shrimp and snails there in Phase 4. Plants are also better bought local so they arrive in good shape.
-
 They may carry:
-- **Substrate, hardscape, test kits, heaters** — price-check against Amazon; supporting the LFS is always good
-- **Plants** (java moss, java fern, anubias) — better to buy local so they arrive healthy
+- **Substrate, hardscape, test kits, heaters**
+- **Plants** (java moss, java fern, anubias)
 - **Driftwood / rocks** — easier to pick in person
 
-**Save for Phase 4 (stocking):**
+### Aquatek Tropical Fish
+
+Aquatek Tropical Fish — Austin, TX
+
+They may carry:
+- **Substrate, hardscape, test kits, heaters**
+- **Plants and driftwood/rocks**
+- They had the Aqueon 6G cube in stock as of 2026-03-28
+
+### Save for Phase 4 (stocking) — buy local, not shipped:
 - 10-15 Neocaridina shrimp (red cherry)
 - 1-2 Nerite snails
-- Definitely buy livestock here, not shipped
 
 ---
 
