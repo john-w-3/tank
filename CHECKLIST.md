@@ -9,8 +9,7 @@
 ### Tank & Hardware
 - [x] Tank — Aqueon Frameless 6G cube (11.5×11.5×11.5") with partial glass cover
 - [x] Heater — hygger Mini 50W submersible with digital controller + burn guard
-- [ ] Thermometer — digital stick-on or submersible
-- [ ] Sponge pre-filter — for the filter intake (keeps baby shrimp safe)
+- [ ] Thermometer — digital stick-on or submersible (optional — hygger heater has a display, but useful to cross-check)
 
 ### Substrate & Hardscape
 - [ ] Substrate — inert fine gravel or sand (Caribsea Peace River, black sand, etc.)
@@ -48,7 +47,6 @@ Do these once you have all your equipment.
   - Target GH: 6-8, KH: 2-4
 - [ ] Install heater — set to 72°F
 - [ ] Install sponge filter + air pump
-- [ ] Attach sponge pre-filter to intake
 - [ ] Add plants — tie/glue to hardscape, don't bury rhizomes
 - [ ] Turn everything on, verify flow and temp
 - [ ] Let it run 24 hours, then test water parameters as a baseline
