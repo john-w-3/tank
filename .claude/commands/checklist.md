@@ -1,0 +1,1 @@
+Read index.md and display it to the user. Show it as-is with the checkboxes so they can see current progress.
