@@ -8,7 +8,7 @@
 
 ### Tank & Hardware
 - [x] Tank — Aqueon Frameless 6G cube (11.5×11.5×11.5") with partial glass cover
-- [ ] Heater — 25W adjustable (Cobalt Neo-Therm 25W, Aqueon Pro 50W, or similar)
+- [x] Heater — hygger Mini 50W submersible with digital controller + burn guard
 - [ ] Thermometer — digital stick-on or submersible
 - [ ] Sponge pre-filter — for the filter intake (keeps baby shrimp safe)
 

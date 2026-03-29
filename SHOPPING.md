@@ -12,7 +12,7 @@ Prices as of 2026-03-23. Buy these first; plants, food, and hardscape can wait u
 | ~~2~~ | ~~AQUANEAT Sponge Filter 3-pack (Small, up to 10 gal, 2.0"D × 4.75"H)~~ | ~~$7.58~~ | **BOUGHT** |
 | ~~3~~ | ~~NICREW Nano Silent Air Pump (0.3 L/min, piezoelectric, up to 10 gal) — includes air tube, check valve, air stone, suction cup~~ | ~~$13.99~~ | **BOUGHT** |
 | ~~4~~ | ~~Airline tubing + check valve~~ | ~~—~~ | **included with air pump** |
-| 5 | Cobalt Neo-Therm Pro 25W heater | $18.99 | [Amazon](https://www.amazon.com/Cobalt-Aquatics-Neo-Therm-Pro-Aquarium/dp/B09JQMW716) |
+| ~~5~~ | ~~hygger Mini Submersible Heater 50W (HG142) — external digital controller, built-in burn guard~~ | ~~$19.99~~ | **BOUGHT** |
 | 6 | Digital aquarium thermometer | $9.99 | [Amazon](https://www.amazon.com/dp/B0B7LRM2KQ) |
 | 7 | CaribSea Peace River substrate 20 lb | $11.02 | [Amazon](https://www.amazon.com/CaribSea-SuperNaturals-Peace-River-Aquascaping/dp/B0002APMU6) |
 | 8 | SaltyShrimp GH/KH+ 100g (remineralizer) | $20.99 | [Amazon](https://www.amazon.com/SaltyShrimp-Shrimp-Mineral-GH-100g/dp/B06Y5RXML6) |
