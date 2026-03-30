@@ -16,6 +16,7 @@ title: Shrimp Tank
 - [Phase 1: Equipment](#phase-1-equipment)
 - [Phase 2: Tank Setup](#phase-2-tank-setup)
 - [Phase 3: Cycling](#phase-3-cycling-4-6-weeks)
+- [Food](#food-order-toward-end-of-cycling)
 - [Phase 4: Stocking](#phase-4-stocking)
 - [Phase 5: Ongoing Maintenance](#phase-5-ongoing-maintenance)
 - [Phase 6: IoT Monitoring](#future-iot-monitoring-phase-6)
@@ -118,10 +119,6 @@ They may carry:
 - [ ] Anubias nana — same as java fern, glue to hardscape
 - [ ] Marimo moss ball (optional) — shrimp love rolling these around
 
-### Food
-- [ ] Shrimp King Complete (or similar — Hikari Shrimp Cuisine also good)
-- [ ] Blanched vegetables work too (zucchini, spinach) — free supplemental food
-
 ---
 
 ## Phase 2: Tank Setup
@@ -168,6 +165,13 @@ this before adding any livestock. Skipping or rushing this is the #1 beginner mi
 - Driftwood may leach tannins (brown water) — harmless, some say beneficial
 - If cycle stalls past 6 weeks, check pH isn't below 6.0 (bacteria slow down)
 - Beneficial bacteria products (Fritz TurboStart 700) can speed things up but aren't required
+
+---
+
+## Food (order toward end of cycling)
+
+- [ ] Shrimp King Complete (or similar — Hikari Shrimp Cuisine also good)
+- [ ] Blanched vegetables work too (zucchini, spinach) — free supplemental food
 
 ---
 
