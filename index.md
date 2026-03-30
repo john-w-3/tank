@@ -19,6 +19,7 @@ title: Shrimp Tank
 - [Food](#food-order-toward-end-of-cycling)
 - [Phase 4: Stocking](#phase-4-stocking)
 - [Phase 5: Ongoing Maintenance](#phase-5-ongoing-maintenance)
+- [Travel Prep](#travel-prep)
 - [Phase 6: IoT Monitoring](#future-iot-monitoring-phase-6)
 - [Water Parameter Quick Reference](#water-parameter-quick-reference)
 
@@ -215,6 +216,46 @@ Only after the cycle is fully complete and parameters are stable.
 - **Berried females** — carrying eggs under their tail. Don't disturb them. Babies are self-sufficient at birth
 - **White ring of death** — white band around the body behind the head = molting failure, usually a GH issue
 - **Lethargy/deaths** — check parameters immediately, especially ammonia and TDS
+
+---
+
+## Travel Prep
+
+### 1 Week Away
+
+**Before you leave:**
+- [ ] 25% water change with remineralized RO water
+- [ ] Test parameters — make sure everything is stable
+- [ ] Clean sponge filter if it's due
+- [ ] Top off water level to the brim (evaporation is the main risk)
+- [ ] Feed normally the day before — do NOT overfeed to "stock up"
+- [ ] Set light on a timer if not already (6-8 hours/day)
+- [ ] Verify heater is working and set correctly
+
+**While away:** Shrimp are fine unfed for a week — biofilm and plant matter sustain them. Do NOT use vacation feeder blocks (they foul the water).
+
+**When you return:**
+- [ ] Test parameters
+- [ ] Top off evaporation with plain RO water
+- [ ] Feed a small amount — resume normal schedule next day
+
+### 2 Weeks Away
+
+Everything from 1-week, plus:
+
+**Before you leave:**
+- [ ] Do a second water change 2-3 days before departure, then another the day before
+- [ ] Add an auto top-off or ask someone to top off RO water midway through (evaporation in a 6G cube can drop the water level significantly in 2 weeks, which concentrates TDS)
+- [ ] Consider a light feeding midway — if someone checks in, they can drop 2-3 pellets and nothing more
+- [ ] Unplug or reduce the light to 4-5 hours/day to slow algae growth without you there to manage it
+
+**While away:** Shrimp can survive 2 weeks unfed, but a single midweek feeding is ideal if you can arrange it. The bigger risk is evaporation raising TDS past safe levels.
+
+**When you return:**
+- [ ] Test parameters immediately — especially TDS
+- [ ] Top off with plain RO water before doing anything else
+- [ ] Water change (20-25%) with remineralized RO water
+- [ ] Resume normal feeding and maintenance
 
 ---
 
