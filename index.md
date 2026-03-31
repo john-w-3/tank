@@ -40,7 +40,7 @@ Prices as of 2026-03-23. Buy these first; plants, food, and hardscape can wait u
 | ~~3~~ | ~~NICREW Nano Silent Air Pump (0.3 L/min, piezoelectric, up to 10 gal) — includes air tube, check valve, air stone, suction cup~~ | ~~$13.99~~ | **BOUGHT** |
 | ~~4~~ | ~~Airline tubing + check valve~~ | ~~—~~ | **included with air pump** |
 | ~~5~~ | ~~hygger Mini Submersible Heater 50W (HG142) — external digital controller, built-in burn guard~~ | ~~$19.99~~ | **BOUGHT** |
-| 6 | Light (clip-on or sit-on LED, low-medium output) | TBD | researching |
+| ~~6~~ | ~~SEAOURA Clip-On LED 12W (7" head, 7-12" tanks, 6500K full spectrum, IP68, 24/7 cycle)~~ | ~~$20.69~~ | **BOUGHT** |
 | 7 | CaribSea Peace River substrate 20 lb | $11.02 | [Amazon](https://www.amazon.com/CaribSea-SuperNaturals-Peace-River-Aquascaping/dp/B0002APMU6) |
 | 8 | SaltyShrimp GH/KH+ 100g (remineralizer) | $20.99 | [Amazon](https://www.amazon.com/SaltyShrimp-Shrimp-Mineral-GH-100g/dp/B06Y5RXML6) |
 | 9 | TDS meter (pen-style) | $6.99 | [Amazon](https://www.amazon.com/Lxuemlu-Professional-Temperature-0-9999ppm-Aquariums/dp/B0BGYFJ6Q1) |
@@ -48,7 +48,7 @@ Prices as of 2026-03-23. Buy these first; plants, food, and hardscape can wait u
 | 11 | Seachem Prime 100 ml (dechlorinator) | $4.31 | [Amazon](https://www.amazon.com/Seachem-Prime-Fresh-Saltwater-Conditioner/dp/B000255PFI) |
 | 12 | Dr. Tim's Ammonium Chloride (ammonia source for cycling) | ~$8 | — |
 | 13 | Shrimp King Complete (staple food) | ~$10 | — |
-| | **Amazon subtotal (remaining)** | **~$97 + light** | |
+| | **Amazon subtotal (remaining)** | **~$97** | |
 
 Plus a dedicated bucket or jug for water prep (~$5-10, any hardware store or dollar store — just never use one that's touched soap).
 
@@ -87,7 +87,7 @@ They may carry:
 - 20 lb of Peace River substrate is plenty for ~1 inch in a 6 gal
 - Sponge filter is inherently shrimp-safe — no intake cover or pre-filter needed
 - The NICREW air pump includes a check valve to prevent back-siphon on power loss
-- Light TBD — the cube has a glass cover with an open section and ridges along the top, so clip-ons work fine
+- Light — SEAOURA clip-on fits the frameless cube nicely; future upgrade path is the custom ESP32+WLED build in Phase 6
 - 100g of SaltyShrimp GH/KH+ will last months at this tank size
 - 100 ml of Seachem Prime treats 1,000 gallons — you'll have this bottle for a very long time
 
@@ -100,7 +100,7 @@ They may carry:
 ### Tank & Hardware
 - [x] Tank — Aqueon Frameless 6G cube (11.5×11.5×11.5") with partial glass cover
 - [x] Heater — hygger Mini 50W submersible with digital controller + burn guard
-- [ ] Light — TBD (clip-on or sit-on LED, low-medium for low-light plants)
+- [x] Light — SEAOURA Clip-On 12W (6500K full spectrum, 24/7 cycle, clip mount for frameless)
 
 ### Substrate & Hardscape
 - [ ] Substrate — inert fine gravel or sand (Caribsea Peace River, black sand, etc.)
@@ -270,6 +270,11 @@ Ideas for the Raspberry Pi integration:
 - [ ] Dashboard — web UI for historical parameter graphs
 - [ ] Alerting — push notifications for temp/parameter out of range
 - [ ] Power outage detection + alerts
+- [ ] Custom LED light — ESP32 + WLED + SK6812 RGBW strip in aluminum channel
+  - Programmable schedules, color, brightness (sunrise/sunset ramps)
+  - Control via iPhone (WLED app / browser) or CLI (REST API from tank Pi)
+  - IP65-rated strip for splash resistance, JST connectors for easy removal
+  - ~$35 in parts: ESP32 dev board, SK6812 RGBW strip, 5V PSU, aluminum channel + diffuser
 
 ---
 
