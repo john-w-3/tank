@@ -41,14 +41,14 @@ Prices as of 2026-03-23. Buy these first; plants, food, and hardscape can wait u
 | ~~4~~ | ~~Airline tubing + check valve~~ | ~~—~~ | **included with air pump** |
 | ~~5~~ | ~~hygger Mini Submersible Heater 50W (HG142) — external digital controller, built-in burn guard~~ | ~~$19.99~~ | **BOUGHT** |
 | ~~6~~ | ~~SEAOURA Clip-On LED 12W (7" head, 7-12" tanks, 6500K full spectrum, IP68, 24/7 cycle)~~ | ~~$20.69~~ | **BOUGHT** |
-| 7 | CaribSea Peace River substrate 20 lb | $11.02 | [Amazon](https://www.amazon.com/CaribSea-SuperNaturals-Peace-River-Aquascaping/dp/B0002APMU6) |
+| ~~7~~ | ~~CaribSea Super Naturals substrate — Midnight River 5 lb + Carolina Creek 5 lb~~ | ~~—~~ | **BOUGHT** (local) |
 | 8 | SaltyShrimp GH/KH+ 100g (remineralizer) | $20.99 | [Amazon](https://www.amazon.com/SaltyShrimp-Shrimp-Mineral-GH-100g/dp/B06Y5RXML6) |
 | 9 | TDS meter (pen-style) | $6.99 | [Amazon](https://www.amazon.com/Lxuemlu-Professional-Temperature-0-9999ppm-Aquariums/dp/B0BGYFJ6Q1) |
 | 10 | API Freshwater Master Test Kit (liquid, 800 tests) | $35.98 | [Amazon](https://www.amazon.com/API-FRESHWATER-800-Test-Freshwater-Aquarium/dp/B000255NCI) |
 | 11 | Seachem Prime 100 ml (dechlorinator) | $4.31 | [Amazon](https://www.amazon.com/Seachem-Prime-Fresh-Saltwater-Conditioner/dp/B000255PFI) |
 | 12 | Dr. Tim's Ammonium Chloride (ammonia source for cycling) | ~$8 | — |
 | 13 | Shrimp King Complete (staple food) | ~$10 | — |
-| | **Amazon subtotal (remaining)** | **~$97** | |
+| | **Amazon subtotal (remaining)** | **~$86** | |
 
 Plus a dedicated bucket or jug for water prep (~$5-10, any hardware store or dollar store — just never use one that's touched soap).
 
@@ -84,7 +84,7 @@ They may carry:
 
 ## Shopping Notes
 
-- 20 lb of Peace River substrate is plenty for ~1 inch in a 6 gal
+- 10 lb of substrate (two 5 lb bags) is plenty for ~1 inch in a 6 gal
 - Sponge filter is inherently shrimp-safe — no intake cover or pre-filter needed
 - The NICREW air pump includes a check valve to prevent back-siphon on power loss
 - Light — SEAOURA clip-on fits the frameless cube nicely; future upgrade path is the custom ESP32+WLED build in Phase 6
@@ -103,7 +103,7 @@ They may carry:
 - [x] Light — SEAOURA Clip-On 12W (6500K full spectrum, 24/7 cycle, clip mount for frameless)
 
 ### Substrate & Hardscape
-- [ ] Substrate — inert fine gravel or sand (Caribsea Peace River, black sand, etc.)
+- [x] Substrate — CaribSea Super Naturals Midnight River + Carolina Creek (5 lb each, bought local)
 - [ ] Hardscape — a small piece of driftwood and/or a few rocks (optional but gives shrimp surfaces to graze and plants something to attach to)
 
 ### Water & Chemistry
