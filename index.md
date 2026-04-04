@@ -42,12 +42,13 @@ Prices as of 2026-03-23. Buy these first; plants, food, and hardscape can wait u
 | ~~5~~ | ~~hygger Mini Submersible Heater 50W (HG142) — external digital controller, built-in burn guard~~ | ~~$19.99~~ | **BOUGHT** |
 | ~~6~~ | ~~SEAOURA Clip-On LED 12W (7" head, 7-12" tanks, 6500K full spectrum, IP68, 24/7 cycle)~~ | ~~$20.69~~ | **BOUGHT** |
 | ~~7~~ | ~~CaribSea Super Naturals substrate — Midnight River 5 lb + Carolina Creek 5 lb~~ | ~~—~~ | **BOUGHT** (local) |
-| 8 | SaltyShrimp GH/KH+ 100g (remineralizer) | $20.99 | [Amazon](https://www.amazon.com/SaltyShrimp-Shrimp-Mineral-GH-100g/dp/B06Y5RXML6) |
-| 9 | TDS meter (pen-style) | $6.99 | [Amazon](https://www.amazon.com/Lxuemlu-Professional-Temperature-0-9999ppm-Aquariums/dp/B0BGYFJ6Q1) |
-| 10 | API Freshwater Master Test Kit (liquid, 800 tests) | $35.98 | [Amazon](https://www.amazon.com/API-FRESHWATER-800-Test-Freshwater-Aquarium/dp/B000255NCI) |
-| 11 | Seachem Prime 100 ml (dechlorinator) | $4.31 | [Amazon](https://www.amazon.com/Seachem-Prime-Fresh-Saltwater-Conditioner/dp/B000255PFI) |
-| 12 | Dr. Tim's Ammonium Chloride (ammonia source for cycling) | ~$8 | — |
-| 13 | Shrimp King Complete (staple food) | ~$10 | — |
+| ~~8~~ | ~~Corner underground natural cave (hardscape hide)~~ | ~~—~~ | **BOUGHT** ([Etsy](https://www.etsy.com/listing/1806639190)) |
+| 9 | SaltyShrimp GH/KH+ 100g (remineralizer) | $20.99 | [Amazon](https://www.amazon.com/SaltyShrimp-Shrimp-Mineral-GH-100g/dp/B06Y5RXML6) |
+| 10 | TDS meter (pen-style) | $6.99 | [Amazon](https://www.amazon.com/Lxuemlu-Professional-Temperature-0-9999ppm-Aquariums/dp/B0BGYFJ6Q1) |
+| 11 | API Freshwater Master Test Kit (liquid, 800 tests) | $35.98 | [Amazon](https://www.amazon.com/API-FRESHWATER-800-Test-Freshwater-Aquarium/dp/B000255NCI) |
+| 12 | Seachem Prime 100 ml (dechlorinator) | $4.31 | [Amazon](https://www.amazon.com/Seachem-Prime-Fresh-Saltwater-Conditioner/dp/B000255PFI) |
+| 13 | Dr. Tim's Ammonium Chloride (ammonia source for cycling) | ~$8 | — |
+| 14 | Shrimp King Complete (staple food) | ~$10 | — |
 | | **Amazon subtotal (remaining)** | **~$86** | |
 
 Plus a dedicated bucket or jug for water prep (~$5-10, any hardware store or dollar store — just never use one that's touched soap).
@@ -104,7 +105,10 @@ They may carry:
 
 ### Substrate & Hardscape
 - [x] Substrate — CaribSea Super Naturals Midnight River + Carolina Creek (5 lb each, bought local)
-- [ ] Hardscape — a small piece of driftwood and/or a few rocks (optional but gives shrimp surfaces to graze and plants something to attach to)
+- [x] Hardscape — corner underground natural cave (Etsy), plus optional driftwood/rocks later
+- [x] Driftwood — spider wood / gnarly root piece (blue-tie piece from LFS)
+- [x] Rock — small dragon stone (to pair with driftwood at base)
+- [ ] Monolith — 2001: A Space Odyssey miniature (1:4:9 ratio, ~0.5×1.25×2-3"), aquarium-safe material (slate, black resin, or obsidian) — small, dwarfed by driftwood/rocks like the Dawn of Man scene
 
 ### Water & Chemistry
 - [ ] Salty Shrimp GH/KH+ (remineralizer for RO water)
