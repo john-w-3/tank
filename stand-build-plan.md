@@ -1,6 +1,6 @@
 # 6-Gallon Cube Stand — Cut List & Build Plan
 
-Design: Open box frame with a shelf, ~30" tall (eye-level seated). Clean, simple look.
+Design: Open box frame with a shelf, ~34" tall. Clean, simple look.
 
 ## Shopping List — One Trip to Lowe's / Home Depot
 
@@ -44,7 +44,7 @@ Home Depot / Lowe's will cut the plywood for you at the store for free — ask t
 
 | Piece | Length | Qty | Purpose |
 |-------|--------|-----|---------|
-| Legs | 28.25" | 4 | Vertical legs (28.25 + 0.75" plywood top + 1" foam = ~30") |
+| Legs | 32.25" | 4 | Vertical legs (32.25 + 0.75" plywood top + 1" foam = ~34") |
 | Top frame — long sides | 14" | 2 | Top frame, front and back |
 | Top frame — short sides | 11" | 2 | Top frame, left and right (fits between the long sides) |
 | Bottom frame — long sides | 14" | 2 | Shelf frame, front and back |
@@ -72,7 +72,7 @@ That's 12 cuts total from two 8' studs — plenty of material.
         │  │          │ │
         │  │          │ │
         ├──┘          └─┤
-        │  plywood shelf│  ← ~6" off the ground (bucket, supplies)
+        │  plywood shelf│  ← ~10" off the ground (bucket, supplies)
         ├──┐          ┌─┤
         │  │          │ │
         └──┘          └─┘
@@ -89,7 +89,7 @@ That's 12 cuts total from two 8' studs — plenty of material.
 
 - Stand each leg in a corner of the top frame, flush with the top edge
 - Glue + two screws through the frame into each leg
-- Attach the bottom frame ~6" up from the floor (leaves room for a bucket underneath)
+- Attach the bottom frame ~10" up from the floor (leaves room for a bucket underneath)
 
 ### Step 3 — Attach plywood panels
 
