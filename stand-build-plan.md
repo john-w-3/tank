@@ -8,7 +8,8 @@ Design: Open box frame with a shelf, ~30" tall (eye-level seated). Clean, simple
 - [ ] 3/4" plywood — ask staff to cut two 14×14" squares (free, they have a panel saw)
 - [ ] Box of 2.5" wood screws (#8 or #9, ~25 count is plenty)
 - [ ] Titebond II or III wood glue (small bottle)
-- [ ] Can of polyurethane (satin or semi-gloss)
+- [ ] Can of black spray paint (paint+primer combo)
+- [ ] Can of polyurethane (satin or semi-gloss) — clear coat goes over the paint
 - [ ] Sandpaper — one sheet of 120 grit, one sheet of 220 grit
 - [ ] Stick-on rubber furniture pads (pack of 4+)
 - [ ] Cheap foam mat or yoga mat (dollar store works too)
