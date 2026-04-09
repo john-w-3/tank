@@ -30,10 +30,12 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 | Qty | Material | Purpose |
 |-----|----------|---------|
 | 3 | 2×4 × 8' studs | Legs + frame |
-| 1 | 3/4" plywood, 2×4' piece (or have a 4×8 sheet cut at the store) | Top + shelf |
+| 1 | 3/4" plywood, 2×4' piece (or have a 4×8 sheet cut at the store) | Top, shelf + base board |
 | 1 | Box of 2.5" wood screws (#8 or #9) | Assembly |
 | 1 | Wood glue (Titebond II or III — water resistant) | Joints |
+| 1 | Can of black spray paint (paint+primer combo) | Color coat |
 | 1 | Can of water-based polyurethane | Seal against water (water-based is safe over spray paint) |
+| 2 | Sandpaper — 120 grit + 220 grit (one sheet each) | Smoothing before paint |
 | 1 | Thin foam mat or yoga mat scrap | Goes between stand top and tank |
 | 1 | Plastic boot tray or waterproof mat | Goes under the stand to protect carpet from drips |
 
