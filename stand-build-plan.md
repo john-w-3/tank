@@ -1,6 +1,6 @@
 # 6-Gallon Cube Stand — Cut List & Build Plan
 
-Design: Open box frame with a shelf, ~34" tall. Clean, simple look.
+Design: Open box frame with a shelf, ~34" tall, 14×14" top. Clean, simple look.
 
 ## Shopping List — One Trip to Lowe's / Home Depot
 
