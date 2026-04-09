@@ -9,7 +9,7 @@ Design: Open box frame with a shelf, ~34" tall. Clean, simple look.
 - [ ] Box of 2.5" wood screws (#8 or #9, ~25 count is plenty)
 - [ ] Titebond II or III wood glue (small bottle)
 - [ ] Can of black spray paint (paint+primer combo)
-- [ ] Can of polyurethane (satin or semi-gloss) — clear coat goes over the paint
+- [ ] Can of water-based polyurethane (satin or semi-gloss) — clear coat goes over the paint (water-based won't react with spray paint like oil-based can)
 - [ ] Sandpaper — one sheet of 120 grit, one sheet of 220 grit
 - [ ] Stick-on rubber furniture pads (pack of 4+)
 - [ ] Cheap foam mat or yoga mat (dollar store works too)
@@ -19,6 +19,7 @@ Design: Open box frame with a shelf, ~34" tall. Clean, simple look.
 - [ ] Saw (miter saw ideal, circular saw or hand saw fine)
 - [ ] Drill/driver
 - [ ] Drill bit set (need one bit slightly thinner than the screws, for pre-drilling)
+- [ ] 2+ clamps (makes squaring frames much easier — hold pieces in place while glue sets)
 
 If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to own regardless.
 
@@ -32,7 +33,7 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 | 1 | 3/4" plywood, 2×4' piece (or have a 4×8 sheet cut at the store) | Top + shelf |
 | 1 | Box of 2.5" wood screws (#8 or #9) | Assembly |
 | 1 | Wood glue (Titebond II or III — water resistant) | Joints |
-| 1 | Can of polyurethane or spray lacquer | Seal against water |
+| 1 | Can of water-based polyurethane | Seal against water (water-based is safe over spray paint) |
 | 1 | Thin foam mat or yoga mat scrap | Goes between stand top and tank |
 | 1 | Stick-on rubber furniture pads (pack of 4+) | Protect floor, help with leveling |
 
