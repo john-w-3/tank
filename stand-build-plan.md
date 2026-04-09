@@ -4,7 +4,7 @@ Design: Open box frame with a shelf, ~34" tall. Clean, simple look.
 
 ## Shopping List — One Trip to Lowe's / Home Depot
 
-- [ ] 2× 2×4 × 8' studs — sight down each board and reject any that are bowed or twisted
+- [ ] 3× 2×4 × 8' studs — sight down each board and reject any that are bowed or twisted
 - [ ] 3/4" plywood — ask staff to cut two 14×14" squares (free, they have a panel saw)
 - [ ] Box of 2.5" wood screws (#8 or #9, ~25 count is plenty)
 - [ ] Titebond II or III wood glue (small bottle)
@@ -28,7 +28,7 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 
 | Qty | Material | Purpose |
 |-----|----------|---------|
-| 2 | 2×4 × 8' studs | Legs + frame |
+| 3 | 2×4 × 8' studs | Legs + frame |
 | 1 | 3/4" plywood, 2×2' piece (or have a 4×8 sheet cut at the store) | Top + shelf |
 | 1 | Box of 2.5" wood screws (#8 or #9) | Assembly |
 | 1 | Wood glue (Titebond II or III — water resistant) | Joints |
@@ -50,7 +50,7 @@ Home Depot / Lowe's will cut the plywood for you at the store for free — ask t
 | Bottom frame — long sides | 14" | 2 | Shelf frame, front and back |
 | Bottom frame — short sides | 11" | 2 | Shelf frame, left and right |
 
-That's 12 cuts total from two 8' studs — plenty of material.
+That's 12 cuts total from three 8' studs (the taller legs don't fit in two).
 
 ### From the plywood (3/4"):
 
