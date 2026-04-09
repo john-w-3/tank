@@ -1,13 +1,13 @@
-# 6-Gallon Cube Stand — Cut List & Build Plan
+# 6-Gallon Cube Stand (16×16) — Cut List & Build Plan
 
-Design: Open box frame with a shelf, ~34" tall, 14×14" top. Clean, simple look.
+Design: Solid legs at the corners with rails between them, shelf with corner notches, ~34" tall, 16×16" top. Clean, simple look.
 
 [3D model (OpenSCAD)](stand-model.scad)
 
 ## Shopping List — One Trip to Lowe's / Home Depot
 
 - [ ] 3× 2×4 × 8' studs — sight down each board and reject any that are bowed or twisted
-- [ ] 3/4" plywood — ask staff to cut three 14×14" squares (free, they have a panel saw)
+- [ ] 3/4" plywood — ask staff to cut three 16×16" squares (free, they have a panel saw)
 - [ ] Box of 2.5" wood screws (#8 or #9, ~25 count is plenty)
 - [ ] Titebond II or III wood glue (small bottle)
 - [ ] Can of black spray paint (paint+primer combo)
@@ -19,6 +19,7 @@ Design: Open box frame with a shelf, ~34" tall, 14×14" top. Clean, simple look.
 ### Confirm tool access (brother-in-law)
 
 - [ ] Saw (miter saw ideal, circular saw or hand saw fine)
+- [ ] Jigsaw (for shelf corner notches — or use a hand saw)
 - [ ] Drill/driver
 - [ ] Drill bit set (need one bit slightly thinner than the screws, for pre-drilling)
 - [ ] 2+ clamps (makes squaring frames much easier — hold pieces in place while glue sets)
@@ -31,7 +32,7 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 
 | Qty | Material | Purpose |
 |-----|----------|---------|
-| 3 | 2×4 × 8' studs | Legs + frame |
+| 3 | 2×4 × 8' studs | Legs + rails |
 | 1 | 3/4" plywood, 2×4' piece (or have a 4×8 sheet cut at the store) | Top, shelf + base board |
 | 1 | Box of 2.5" wood screws (#8 or #9) | Assembly |
 | 1 | Wood glue (Titebond II or III — water resistant) | Joints |
@@ -41,7 +42,7 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 | 1 | Thin foam mat or yoga mat scrap | Goes between stand top and tank |
 | 1 | Plastic boot tray or waterproof mat | Goes under the stand to protect carpet from drips |
 
-Home Depot / Lowe's will cut the plywood for you at the store for free — ask them to cut three 14×14" squares (top, shelf, and base board for carpet).
+Home Depot / Lowe's will cut the plywood for you at the store for free — ask them to cut three 16×16" squares (top, shelf, and base board for carpet). Three 16" pieces fit exactly across a 48" board.
 
 ## Cut List
 
@@ -49,69 +50,128 @@ Home Depot / Lowe's will cut the plywood for you at the store for free — ask t
 
 | Piece | Length | Qty | Purpose |
 |-------|--------|-----|---------|
-| Legs | 32.25" | 4 | Vertical legs (32.25 + 0.75" plywood top + 0.75" base board = ~33.75") |
-| Top frame — long sides | 14" | 2 | Top frame, front and back |
-| Top frame — short sides | 11" | 2 | Top frame, left and right (fits between the long sides) |
-| Bottom frame — long sides | 14" | 2 | Shelf frame, front and back |
-| Bottom frame — short sides | 11" | 2 | Shelf frame, left and right |
+| Legs | 32.25" | 4 | Solid vertical legs, flush with outside corners |
+| Front/back rails | 9" | 4 | Span between legs along the front and back (2 top + 2 bottom) |
+| Left/right rails | 13" | 4 | Span between legs along the sides (2 top + 2 bottom) |
 
-That's 12 cuts total from three 8' studs (the taller legs don't fit in two).
+That's 12 cuts total from three 8' studs.
 
 ### From the plywood (3/4"):
 
 | Piece | Size | Qty | Purpose |
 |-------|------|-----|---------|
-| Top panel | 14" × 14" | 1 | Tank sits on this |
-| Shelf panel | 14" × 14" | 1 | Lower shelf for supplies |
-| Base board | 14" × 14" | 1 | Goes under the legs on carpet — prevents uneven sinking |
+| Top panel | 16" × 16" | 1 | Tank sits on this |
+| Shelf panel | 16" × 16" (with corner notches) | 1 | Lower shelf for supplies — notch each corner 3.5" × 1.5" to fit around the legs |
+| Base board | 16" × 16" | 1 | Goes under the legs on carpet — prevents uneven sinking |
 
-Ask for three 14×14" squares instead of two. A 2×4' piece still has room for all three.
+16" gives you ~2.25" of overhang on each side of the 11.5" tank — generous margin, more room for equipment on top.
 
-14" gives you ~1.25" of overhang on each side of the 11.5" tank — enough margin without looking bulky.
+### Shelf notch detail
+
+Cut a 3.5" × 1.5" rectangle out of each corner so the shelf fits around the legs:
+
+```
+    3.5"
+   ┌───┐
+   │   │ 1.5"
+   │   └──────────────────────────┐
+   │                              │
+   │                              │
+   │         16" × 16"           │
+   │       shelf panel            │
+   │                              │
+   │                              │
+   │   ┌──────────────────────────┘
+   │   │
+   └───┘
+   (other two corners same)
+```
+
+A jigsaw makes quick work of these. A hand saw works too — just two straight cuts per corner.
 
 ## Assembly
 
 ```
-        ┌──────────────┐
-        │  plywood top  │  ← tank sits here (on foam mat)
-        ├══╤══════════╤═┤
-        │  │ top frame│ │  ← 2×4 frame (laid flat)
-        ├──┤          ├─┤
-        │  │          │ │
-  legs →│  │          │ │← legs
-        │  │          │ │
-        │  │          │ │
-        ├──┘          └─┤
-        │  plywood shelf│  ← ~10" off the ground (bucket, supplies)
-        ├══╤══════════╤═┤
-        │  │ btm frame│ │  ← 2×4 frame (laid flat)
-        ├──┤          ├─┤
-        │  │          │ │
-        └──┴──────────┴─┘
-        │  base board   │  ← plywood on boot tray, prevents sinking into carpet
-        └───────────────┘
+  front view                          side view (thin leg edge faces front)
+
+  ┌──────────────────────┐            ┌──────────────────┐
+  │     plywood top      │            │   plywood top    │
+  ╞══╤════════════════╤══╡            ╞══╤════════════╤══╡
+  │  │   top rails    │  │            │  │  top rails │  │
+  │  ├────────────────┤  │            │  ├────────────┤  │
+  │  │                │  │            │  │            │  │
+  │  │                │  │            │  │            │  │
+  │  │                │  │            │  │            │  │
+  │  │                │  │            │  │            │  │
+  ╞══╧═╤══════════╤═══╧══╡           │  │            │  │
+  │    │ply shelf │       │           │  │            │  │
+  ╞══╤═╧══════════╧═══╤══╡           ╞══╧═╤════════╤═╧══╡
+  │  │   btm rails    │  │           │    │  shelf │    │
+  │  ├────────────────┤  │           ╞══╤═╧════════╧═╤══╡
+  │  │                │  │           │  │  btm rails │  │
+  │  │                │  │           │  ├────────────┤  │
+  │  │                │  │           │  │            │  │
+  └──┴────────────────┴──┘           └──┴────────────┴──┘
+  ┌──────────────────────┐           ┌──────────────────┐
+  │     base board       │           │    base board    │
+  └──────────────────────┘           └──────────────────┘
+
+  ← legs are the outer │  │ pieces, continuous top to bottom →
 ```
 
-### Step 1 — Build two rectangular frames (top and bottom)
+```
+  top-down view (rails between legs)
 
-- Each frame: two 14" pieces + two 11" pieces
-- The 11" pieces go *between* the 14" pieces (butt joints)
-- Glue + two screws per joint
-- Pre-drill holes to avoid splitting the 2×4 — this is the main beginner tip
+  ┌───┬─────────┬───┐
+  │leg│  front  │leg│
+  │   │  rail   │   │
+  ├───┘         └───┤
+  │left           rt│
+  │rail          rail│
+  │                  │
+  │left           rt│
+  │rail          rail│
+  ├───┐         ┌───┤
+  │leg│  back   │leg│
+  │   │  rail   │   │
+  └───┴─────────┴───┘
+```
 
-### Step 2 — Attach legs
+### Step 1 — Cut four legs
 
-- Stand each leg in a corner of the top frame, flush with the top edge
-- Glue + two screws through the *side* of the frame into the *side* of each leg (side grain holds much better than screwing into end grain)
-- Attach the bottom frame ~10" up from the floor (fits a small bin or 1-2 gallon container underneath — a standard 5-gallon bucket is ~14.5" tall and won't fit)
+- Cut four 32.25" pieces from the 2×4s
+- These run the full height of the stand — no breaks at the shelf
 
-### Step 3 — Attach plywood panels
+### Step 2 — Cut eight rails
 
-- Set the 14×14 top panel on the top frame, center it
+- Four 9" pieces (front/back rails, top + bottom)
+- Four 13" pieces (left/right rails, top + bottom)
+
+### Step 3 — Attach rails to legs (top frame first)
+
+- Stand two front legs upright, spaced 16" apart (outside edge to outside edge)
+- Glue + screw the 9" front rail between them, flush with the top of the legs
+- The rail sits between the legs — its ends butt against the inside faces of the legs
+- Pre-drill to avoid splitting, then two screws through each leg into the rail end
+- Repeat for the back rail with the two back legs
+- Connect front and back assemblies with the two 13" side rails
+- Check for square — measure diagonals, they should be equal
+
+### Step 4 — Attach bottom rails
+
+- Measure 10" up from the bottom of each leg, mark it
+- Attach all four bottom rails the same way as the top
+- These support the shelf
+
+### Step 5 — Attach plywood panels
+
+- Set the 16×16 top panel on the top frame, flush with the leg tops
 - Glue + screw down every 4-5 inches around the edge
-- Same for the shelf panel on the bottom frame
+- Notch the shelf panel corners (3.5" × 1.5" at each corner)
+- Drop the shelf panel onto the bottom rails — it fits around the legs
+- Glue + screw the shelf to the rails
 
-### Step 4 — Finish
+### Step 6 — Finish
 
 - Sand everything smooth (120 grit, then 220)
 - Apply 2-3 light coats of black spray paint, letting each coat dry before the next
@@ -119,13 +179,13 @@ Ask for three 14×14" squares instead of two. A 2×4' piece still has room for a
 - Pay extra attention to the top — that's where water will drip
 - Give plywood edges an extra coat or two — cut edges absorb water like a sponge
 
-### Step 5 — Place (on carpet)
+### Step 7 — Place (on carpet)
 
 - Lay a plastic boot tray or waterproof mat where the stand will go — catches drips before they hit carpet
 - Set the base board (third plywood square) on top of the tray — this gives the legs a flat, solid surface so they don't sink unevenly into the carpet pad
 - Set the stand on the base board
 - Check level with a phone level app or a real level — shim between base board and stand legs if needed
-- Cut a piece of foam mat to ~12×12", place on top, set tank on foam
+- Cut a piece of foam mat to ~14×14", place on top, set tank on foam
 
 ## Tips for a First-Timer
 

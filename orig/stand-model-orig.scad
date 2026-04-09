@@ -1,8 +1,5 @@
-// 6-Gallon Cube Aquarium Stand — OpenSCAD Model (16×16 version)
+// 6-Gallon Cube Aquarium Stand — OpenSCAD Model
 // All dimensions in inches (actual lumber sizes, not nominal)
-//
-// Design: solid full-height legs at outside corners, rails between legs,
-//         shelf panel notched around legs.
 //
 // To view:  Open in OpenSCAD → press F5 (preview) or F6 (full render)
 // To export: F6 to render, then File → Export as STL
@@ -13,10 +10,10 @@ w   = 3.5;     // 2x4 width (wide face)
 ply = 0.719;   // 3/4" plywood (actual 23/32")
 
 /* --- Cut list lengths --- */
-leg_len     = 32.25;
-fb_rail_len = 16 - 2*w;   // 9"  — front/back rails (fit between legs along X)
-lr_rail_len = 16 - 2*t;   // 13" — left/right rails (fit between legs along Y)
-panel       = 16;          // plywood squares
+leg_len    = 32.25;
+long_side  = 14;      // front/back frame pieces
+short_side = 11;       // left/right frame pieces (fit between long sides)
+panel      = 14;       // plywood squares
 
 /* --- Z positions (from floor) --- */
 base_z      = 0;
@@ -27,25 +24,25 @@ top_frame_z = leg_z + leg_len - w;     // top frame flush with leg tops
 top_ply_z   = leg_z + leg_len;         // top panel on legs/frame
 
 /* --- Colors --- */
-c_wood  = [0.1, 0.1, 0.1];
+c_wood = [0.1, 0.1, 0.1];
 c_ply  = [0.1, 0.1, 0.1];
 
 /* --- Modules --- */
 
 module frame(z) {
     color(c_wood) {
-        // Front rail (between FL and FR legs, along X)
-        translate([w, 0, z])
-            cube([fb_rail_len, t, w]);
-        // Back rail
-        translate([w, panel - t, z])
-            cube([fb_rail_len, t, w]);
-        // Left rail (between FL and BL legs, along Y)
+        // Front long side (14" along X)
+        translate([0, 0, z])
+            cube([long_side, t, w]);
+        // Back long side
+        translate([0, panel - t, z])
+            cube([long_side, t, w]);
+        // Left short side (11" along Y, between long sides)
         translate([0, t, z])
-            cube([t, lr_rail_len, w]);
-        // Right rail
+            cube([t, short_side, w]);
+        // Right short side
         translate([panel - t, t, z])
-            cube([t, lr_rail_len, w]);
+            cube([t, short_side, w]);
     }
 }
 
@@ -61,14 +58,6 @@ module plywood_panel(z) {
             cube([panel, panel, ply]);
 }
 
-// Shelf panel (full 16×16 square — corners overlap with legs in the model,
-// but in real life you'll notch the corners to fit around them)
-module shelf_panel(z) {
-    color(c_ply)
-        translate([0, 0, z])
-            cube([panel, panel, ply]);
-}
-
 /* --- Assembly --- */
 
 // Stand rotated 90° so thin leg edges face front
@@ -79,7 +68,7 @@ translate([-panel/2, -panel/2, 0])
     // Base board (on floor, under everything)
     plywood_panel(base_z);
 
-    // Legs (solid full-height, flush with outside corners)
+    // Legs (flush with outside corners, 3.5" along X, 1.5" along Y)
     leg(0, 0);                              // front-left
     leg(panel - w, 0);                      // front-right
     leg(0, panel - t);                      // back-left
@@ -94,8 +83,8 @@ translate([-panel/2, -panel/2, 0])
     // Top panel (tank sits here)
     plywood_panel(top_ply_z);
 
-    // Shelf panel (notched around legs, sits on bottom frame)
-    shelf_panel(shelf_z);
+    // Shelf panel (on top of bottom frame)
+    plywood_panel(shelf_z);
 
     // 6-gallon cube tank (11.5" cube, centered on top panel)
     tank_size = 11.5;
@@ -106,7 +95,7 @@ translate([-panel/2, -panel/2, 0])
 }
 
 // Computer desk (for scale reference, placed beside stand)
-desk_x = panel + 14;   // gap right of stand
+desk_x = panel + 14;   // 10" right of previous position
 desk_l = 40;
 desk_w = 15;
 desk_h = 29.5;
@@ -126,3 +115,4 @@ for (x = [desk_x + desk_inset, desk_x + desk_l - desk_inset])
     for (y = [desk_inset, desk_w - desk_inset])
         translate([x, y, 0])
             cylinder(h = desk_leg_h, r = desk_leg_r, $fn = 24);
+
