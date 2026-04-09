@@ -81,6 +81,28 @@ plywood_panel(top_ply_z);
 // Shelf panel (on top of bottom frame)
 plywood_panel(shelf_z);
 
+// Computer desk (for scale reference, placed beside stand)
+desk_x = panel + 14;   // 10" right of previous position
+desk_l = 40;
+desk_w = 15;
+desk_h = 29.5;
+desk_top_t = 1;
+desk_leg_r = 0.75;     // leg radius
+desk_leg_h = desk_h - desk_top_t;
+desk_inset = 1.5;      // leg inset from edges
+
+// Tabletop
+color([0.72, 0.53, 0.34])
+    translate([desk_x, 0, desk_leg_h])
+        cube([desk_l, desk_w, desk_top_t]);
+
+// Legs (black cylinders)
+color([0.15, 0.15, 0.15])
+for (x = [desk_x + desk_inset, desk_x + desk_l - desk_inset])
+    for (y = [desk_inset, desk_w - desk_inset])
+        translate([x, y, 0])
+            cylinder(h = desk_leg_h, r = desk_leg_r, $fn = 24);
+
 // 6-gallon cube tank (11.5" cube, centered on top panel)
 tank_size = 11.5;
 tank_offset = (panel - tank_size) / 2;   // 1.25" overhang each side
