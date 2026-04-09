@@ -77,11 +77,11 @@ Ask for three 14×14" squares instead of two. A 2×4' piece still has room for a
   legs →│  │          │ │← legs
         │  │          │ │
         │  │          │ │
-        ├──┤          ├─┤
-        │  │ btm frame│ │  ← 2×4 frame (laid flat)
-        ├══╧══════════╧═┤
+        ├──┘          └─┤
         │  plywood shelf│  ← ~10" off the ground (bucket, supplies)
-        ├──┐          ┌─┤
+        ├══╤══════════╤═┤
+        │  │ btm frame│ │  ← 2×4 frame (laid flat)
+        ├──┤          ├─┤
         │  │          │ │
         └──┴──────────┴─┘
         │  base board   │  ← plywood on boot tray, prevents sinking into carpet
