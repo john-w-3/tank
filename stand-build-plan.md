@@ -5,14 +5,14 @@ Design: Open box frame with a shelf, ~34" tall, 14×14" top. Clean, simple look.
 ## Shopping List — One Trip to Lowe's / Home Depot
 
 - [ ] 3× 2×4 × 8' studs — sight down each board and reject any that are bowed or twisted
-- [ ] 3/4" plywood — ask staff to cut two 14×14" squares (free, they have a panel saw)
+- [ ] 3/4" plywood — ask staff to cut three 14×14" squares (free, they have a panel saw)
 - [ ] Box of 2.5" wood screws (#8 or #9, ~25 count is plenty)
 - [ ] Titebond II or III wood glue (small bottle)
 - [ ] Can of black spray paint (paint+primer combo)
 - [ ] Can of water-based polyurethane (satin or semi-gloss) — clear coat goes over the paint (water-based won't react with spray paint like oil-based can)
 - [ ] Sandpaper — one sheet of 120 grit, one sheet of 220 grit
-- [ ] Stick-on rubber furniture pads (pack of 4+)
 - [ ] Cheap foam mat or yoga mat (dollar store works too)
+- [ ] Plastic boot tray or waterproof mat (~$5-10, goes under the stand on carpet)
 
 ### Confirm tool access (brother-in-law)
 
@@ -35,9 +35,9 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 | 1 | Wood glue (Titebond II or III — water resistant) | Joints |
 | 1 | Can of water-based polyurethane | Seal against water (water-based is safe over spray paint) |
 | 1 | Thin foam mat or yoga mat scrap | Goes between stand top and tank |
-| 1 | Stick-on rubber furniture pads (pack of 4+) | Protect floor, help with leveling |
+| 1 | Plastic boot tray or waterproof mat | Goes under the stand to protect carpet from drips |
 
-Home Depot / Lowe's will cut the plywood for you at the store for free — ask them to cut two 14×14" squares and you're done.
+Home Depot / Lowe's will cut the plywood for you at the store for free — ask them to cut three 14×14" squares (top, shelf, and base board for carpet).
 
 ## Cut List
 
@@ -45,7 +45,7 @@ Home Depot / Lowe's will cut the plywood for you at the store for free — ask t
 
 | Piece | Length | Qty | Purpose |
 |-------|--------|-----|---------|
-| Legs | 32.25" | 4 | Vertical legs (32.25 + 0.75" plywood top + ~0.25" foam pad = ~33.25") |
+| Legs | 32.25" | 4 | Vertical legs (32.25 + 0.75" plywood top + 0.75" base board = ~33.75") |
 | Top frame — long sides | 14" | 2 | Top frame, front and back |
 | Top frame — short sides | 11" | 2 | Top frame, left and right (fits between the long sides) |
 | Bottom frame — long sides | 14" | 2 | Shelf frame, front and back |
@@ -59,6 +59,9 @@ That's 12 cuts total from three 8' studs (the taller legs don't fit in two).
 |-------|------|-----|---------|
 | Top panel | 14" × 14" | 1 | Tank sits on this |
 | Shelf panel | 14" × 14" | 1 | Lower shelf for supplies |
+| Base board | 14" × 14" | 1 | Goes under the legs on carpet — prevents uneven sinking |
+
+Ask for three 14×14" squares instead of two. A 2×4' piece still has room for all three.
 
 14" gives you ~1.25" of overhang on each side of the 11.5" tank — enough margin without looking bulky.
 
@@ -106,11 +109,12 @@ That's 12 cuts total from three 8' studs (the taller legs don't fit in two).
 - Pay extra attention to the top — that's where water will drip
 - Give plywood edges an extra coat or two — cut edges absorb water like a sponge
 
-### Step 5 — Place
+### Step 5 — Place (on carpet)
 
-- Put the stand where you want it (moving a full tank is miserable)
-- Stick rubber furniture pads on the bottom of each leg — protects your floor and helps with micro-leveling
-- Check level with a phone level app or a real level — shim if needed
+- Lay a plastic boot tray or waterproof mat where the stand will go — catches drips before they hit carpet
+- Set the base board (third plywood square) on top of the tray — this gives the legs a flat, solid surface so they don't sink unevenly into the carpet pad
+- Set the stand on the base board
+- Check level with a phone level app or a real level — shim between base board and stand legs if needed
 - Cut a piece of foam mat to ~12×12", place on top, set tank on foam
 
 ## Tips for a First-Timer
