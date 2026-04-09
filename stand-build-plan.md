@@ -29,7 +29,7 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 | Qty | Material | Purpose |
 |-----|----------|---------|
 | 3 | 2×4 × 8' studs | Legs + frame |
-| 1 | 3/4" plywood, 2×2' piece (or have a 4×8 sheet cut at the store) | Top + shelf |
+| 1 | 3/4" plywood, 2×4' piece (or have a 4×8 sheet cut at the store) | Top + shelf |
 | 1 | Box of 2.5" wood screws (#8 or #9) | Assembly |
 | 1 | Wood glue (Titebond II or III — water resistant) | Joints |
 | 1 | Can of polyurethane or spray lacquer | Seal against water |
