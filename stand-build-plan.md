@@ -44,7 +44,7 @@ Home Depot / Lowe's will cut the plywood for you at the store for free — ask t
 
 | Piece | Length | Qty | Purpose |
 |-------|--------|-----|---------|
-| Legs | 32.25" | 4 | Vertical legs (32.25 + 0.75" plywood top + 1" foam = ~34") |
+| Legs | 32.25" | 4 | Vertical legs (32.25 + 0.75" plywood top + ~0.25" foam pad = ~33.25") |
 | Top frame — long sides | 14" | 2 | Top frame, front and back |
 | Top frame — short sides | 11" | 2 | Top frame, left and right (fits between the long sides) |
 | Bottom frame — long sides | 14" | 2 | Shelf frame, front and back |
@@ -88,8 +88,8 @@ That's 12 cuts total from three 8' studs (the taller legs don't fit in two).
 ### Step 2 — Attach legs
 
 - Stand each leg in a corner of the top frame, flush with the top edge
-- Glue + two screws through the frame into each leg
-- Attach the bottom frame ~10" up from the floor (leaves room for a bucket underneath)
+- Glue + two screws through the *side* of the frame into the *side* of each leg (side grain holds much better than screwing into end grain)
+- Attach the bottom frame ~10" up from the floor (fits a small bin or 1-2 gallon container underneath — a standard 5-gallon bucket is ~14.5" tall and won't fit)
 
 ### Step 3 — Attach plywood panels
 
@@ -100,7 +100,8 @@ That's 12 cuts total from three 8' studs (the taller legs don't fit in two).
 ### Step 4 — Finish
 
 - Sand everything smooth (120 grit, then 220)
-- Apply 2-3 coats of polyurethane, letting it dry between coats
+- Apply 2-3 light coats of black spray paint, letting each coat dry before the next
+- Once paint is fully dry, apply 2-3 coats of polyurethane over the paint — this seals and protects
 - Pay extra attention to the top — that's where water will drip
 - Give plywood edges an extra coat or two — cut edges absorb water like a sponge
 
@@ -117,5 +118,6 @@ That's 12 cuts total from three 8' studs (the taller legs don't fit in two).
 - **Glue + screws > screws alone.** The glue is doing most of the structural work; screws just hold things while it dries
 - **Check for square.** After assembling each frame, measure diagonals — if they're equal, it's square. If not, nudge it before the glue sets
 - **Don't rush the poly.** Two thin coats beats one thick coat. Thick coats drip and stay tacky
+- **If it feels wobbly, add a back panel.** Tack a scrap of 1/4" plywood across the back of the frame — eliminates any side-to-side racking. Not strictly necessary for a light tank, but cheap insurance
 
 The actual hands-on time is maybe 2-3 hours. The polyurethane drying is the slow part (overnight between coats).
