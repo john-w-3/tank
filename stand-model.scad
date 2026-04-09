@@ -24,8 +24,8 @@ top_frame_z = leg_z + leg_len - w;     // top frame flush with leg tops
 top_ply_z   = leg_z + leg_len;         // top panel on legs/frame
 
 /* --- Colors --- */
-c_wood = [0.76, 0.60, 0.42];
-c_ply  = [0.82, 0.71, 0.55];
+c_wood = [0.1, 0.1, 0.1];
+c_ply  = [0.1, 0.1, 0.1];
 
 /* --- Modules --- */
 
@@ -60,26 +60,39 @@ module plywood_panel(z) {
 
 /* --- Assembly --- */
 
-// Base board (on floor, under everything)
-plywood_panel(base_z);
+// Stand rotated 90° so thin leg edges face front
+translate([panel/2, panel/2, 0])
+rotate([0, 0, 90])
+translate([-panel/2, -panel/2, 0])
+{
+    // Base board (on floor, under everything)
+    plywood_panel(base_z);
 
-// Legs (flush with outside corners, 3.5" along X, 1.5" along Y)
-leg(0, 0);                              // front-left
-leg(panel - w, 0);                      // front-right
-leg(0, panel - t);                      // back-left
-leg(panel - w, panel - t);              // back-right
+    // Legs (flush with outside corners, 3.5" along X, 1.5" along Y)
+    leg(0, 0);                              // front-left
+    leg(panel - w, 0);                      // front-right
+    leg(0, panel - t);                      // back-left
+    leg(panel - w, panel - t);              // back-right
 
-// Top frame (flush with top of legs)
-frame(top_frame_z);
+    // Top frame (flush with top of legs)
+    frame(top_frame_z);
 
-// Bottom frame (~10" from floor)
-frame(btm_frame_z);
+    // Bottom frame (~10" from floor)
+    frame(btm_frame_z);
 
-// Top panel (tank sits here)
-plywood_panel(top_ply_z);
+    // Top panel (tank sits here)
+    plywood_panel(top_ply_z);
 
-// Shelf panel (on top of bottom frame)
-plywood_panel(shelf_z);
+    // Shelf panel (on top of bottom frame)
+    plywood_panel(shelf_z);
+
+    // 6-gallon cube tank (11.5" cube, centered on top panel)
+    tank_size = 11.5;
+    tank_offset = (panel - tank_size) / 2;
+    color([0.6, 0.85, 1.0], 0.3)
+        translate([tank_offset, tank_offset, top_ply_z + ply])
+            cube([tank_size, tank_size, tank_size]);
+}
 
 // Computer desk (for scale reference, placed beside stand)
 desk_x = panel + 14;   // 10" right of previous position
@@ -103,9 +116,3 @@ for (x = [desk_x + desk_inset, desk_x + desk_l - desk_inset])
         translate([x, y, 0])
             cylinder(h = desk_leg_h, r = desk_leg_r, $fn = 24);
 
-// 6-gallon cube tank (11.5" cube, centered on top panel)
-tank_size = 11.5;
-tank_offset = (panel - tank_size) / 2;   // 1.25" overhang each side
-color([0.6, 0.85, 1.0], 0.3)            // translucent blue
-    translate([tank_offset, tank_offset, top_ply_z + ply])
-        cube([tank_size, tank_size, tank_size]);
