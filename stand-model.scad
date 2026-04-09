@@ -69,6 +69,59 @@ module shelf_panel(z) {
             cube([panel, panel, ply]);
 }
 
+/* --- Screw markers (red dots on outside surfaces) --- */
+module screw_markers() {
+    sr   = 0.25;                    // marker radius
+    tp_z = top_ply_z + ply + sr;    // top panel top surface + offset
+    sh_z = shelf_z + ply + sr;      // shelf top surface + offset
+
+    color("red") {
+        /* Rail-to-leg joints: 1 screw per face × 8 joints × 2 frames
+           X and Y screws staggered vertically to avoid crossing */
+        for (fz = [btm_frame_z, top_frame_z]) {
+            sz = fz + w / 2;  // centered in rail height
+            po = 0.75;        // pocket hole offset from rail end
+            // Front/back rails — pocket screws on inside face of rail
+            // Front rail inside face (y = t), near FL and FR ends
+            translate([w + po,              t + sr,       sz]) sphere(sr, $fn=12);
+            translate([w + fb_rail_len - po, t + sr,       sz]) sphere(sr, $fn=12);
+            // Back rail inside face (y = panel - t), near BL and BR ends
+            translate([w + po,              panel-t-sr,   sz]) sphere(sr, $fn=12);
+            translate([w + fb_rail_len - po, panel-t-sr,   sz]) sphere(sr, $fn=12);
+            // Left/right rails — screws through ±Y leg faces
+            translate([t/2,       -sr,       sz]) sphere(sr, $fn=12);
+            translate([panel-t/2, -sr,       sz]) sphere(sr, $fn=12);
+            translate([t/2,       panel+sr,  sz]) sphere(sr, $fn=12);
+            translate([panel-t/2, panel+sr,  sz]) sphere(sr, $fn=12);
+        }
+
+        /* Base board → legs (4 screws, up through bottom) */
+        for (lx = [w/2, panel-w/2])
+            for (ly = [t/2, panel-t/2])
+                translate([lx, ly, -sr]) sphere(sr, $fn=12);
+
+        /* Top panel → top frame rails (8 screws, down from top) */
+        for (fx = [w + fb_rail_len*0.33, w + fb_rail_len*0.67]) {
+            translate([fx, t/2,       tp_z]) sphere(sr, $fn=12);
+            translate([fx, panel-t/2, tp_z]) sphere(sr, $fn=12);
+        }
+        for (fy = [t + lr_rail_len*0.33, t + lr_rail_len*0.67]) {
+            translate([t/2,       fy, tp_z]) sphere(sr, $fn=12);
+            translate([panel-t/2, fy, tp_z]) sphere(sr, $fn=12);
+        }
+
+        /* Shelf → bottom frame rails (8 screws, down from top of shelf) */
+        for (fx = [w + fb_rail_len*0.33, w + fb_rail_len*0.67]) {
+            translate([fx, t/2,       sh_z]) sphere(sr, $fn=12);
+            translate([fx, panel-t/2, sh_z]) sphere(sr, $fn=12);
+        }
+        for (fy = [t + lr_rail_len*0.33, t + lr_rail_len*0.67]) {
+            translate([t/2,       fy, sh_z]) sphere(sr, $fn=12);
+            translate([panel-t/2, fy, sh_z]) sphere(sr, $fn=12);
+        }
+    }
+}
+
 /* --- Assembly --- */
 
 // Stand rotated 90° so thin leg edges face front
@@ -96,6 +149,9 @@ translate([-panel/2, -panel/2, 0])
 
     // Shelf panel (notched around legs, sits on bottom frame)
     shelf_panel(shelf_z);
+
+    // Screw markers
+    screw_markers();
 
     // 6-gallon cube tank (11.5" cube, centered on top panel)
     tank_size = 11.5;

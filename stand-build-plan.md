@@ -8,7 +8,8 @@ Design: Solid legs at the corners with rails between them, shelf with corner not
 
 - [ ] 3× 2×4 × 8' studs — sight down each board and reject any that are bowed or twisted
 - [ ] 3/4" plywood — ask staff to cut three 16×16" squares (free, they have a panel saw)
-- [ ] Box of 2.5" wood screws (#8 or #9, ~25 count is plenty)
+- [ ] Box of 3" wood screws (#8 or #9, ~25 count) — for side rails, plywood panels, base board
+- [ ] Box of 2.5" coarse-thread pocket hole screws (~10 count) — for front/back rails
 - [ ] Titebond II or III wood glue (small bottle)
 - [ ] Can of black spray paint (paint+primer combo)
 - [ ] Can of water-based polyurethane (satin or semi-gloss) — clear coat goes over the paint (water-based won't react with spray paint like oil-based can)
@@ -22,6 +23,7 @@ Design: Solid legs at the corners with rails between them, shelf with corner not
 - [ ] Jigsaw (for shelf corner notches — or use a hand saw)
 - [ ] Drill/driver
 - [ ] Drill bit set (need one bit slightly thinner than the screws, for pre-drilling)
+- [ ] Pocket hole jig (Kreg makes a basic one for ~$25 — or borrow one)
 - [ ] 2+ clamps (makes squaring frames much easier — hold pieces in place while glue sets)
 
 If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to own regardless.
@@ -34,7 +36,8 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 |-----|----------|---------|
 | 3 | 2×4 × 8' studs | Legs + rails |
 | 1 | 3/4" plywood, 2×4' piece (or have a 4×8 sheet cut at the store) | Top, shelf + base board |
-| 1 | Box of 2.5" wood screws (#8 or #9) | Assembly |
+| 1 | Box of 3" wood screws (#8 or #9) | Side rails, plywood panels, base board |
+| 1 | Box of 2.5" coarse-thread pocket hole screws | Front/back rail-to-leg joints |
 | 1 | Wood glue (Titebond II or III — water resistant) | Joints |
 | 1 | Can of black spray paint (paint+primer combo) | Color coat |
 | 1 | Can of water-based polyurethane | Seal against water (water-based is safe over spray paint) |
@@ -150,9 +153,8 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 ### Step 3 — Attach rails to legs (top frame first)
 
 - Stand two front legs upright, spaced 16" apart (outside edge to outside edge)
-- Glue + screw the 9" front rail between them, flush with the top of the legs
-- The rail sits between the legs — its ends butt against the inside faces of the legs
-- Pre-drill to avoid splitting, then two screws through each leg into the rail end
+- **Front/back rails (9" pieces) — pocket screws:** drill a pocket hole in each end of the rail using the jig, on the inside face. Glue the joint, clamp, then drive a 2.5" pocket screw into the leg. One pocket screw per end.
+- **Left/right rails (13" pieces) — through-screws:** glue the joint, pre-drill through the outer face of the leg (the 1.5" narrow face), then drive one 3" screw through the leg into the rail end. One screw per end.
 - Repeat for the back rail with the two back legs
 - Connect front and back assemblies with the two 13" side rails
 - Check for square — measure diagonals, they should be equal
@@ -166,10 +168,10 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 ### Step 5 — Attach plywood panels
 
 - Set the 16×16 top panel on the top frame, flush with the leg tops
-- Glue + screw down every 4-5 inches around the edge
+- Glue + screw down into the frame rails (two 3" screws per rail)
 - Notch the shelf panel corners (3.5" × 1.5" at each corner)
 - Drop the shelf panel onto the bottom rails — it fits around the legs
-- Glue + screw the shelf to the rails
+- Glue + screw the shelf to the rails (two 3" screws per rail)
 
 ### Step 6 — Finish
 
