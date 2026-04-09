@@ -2,6 +2,8 @@
 
 Design: Open box frame with a shelf, ~34" tall, 14×14" top. Clean, simple look.
 
+[3D model (OpenSCAD)](stand-model.scad)
+
 ## Shopping List — One Trip to Lowe's / Home Depot
 
 - [ ] 3× 2×4 × 8' studs — sight down each board and reject any that are bowed or twisted
