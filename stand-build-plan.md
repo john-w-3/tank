@@ -79,7 +79,9 @@ Ask for three 14×14" squares instead of two. A 2×4' piece still has room for a
         │  plywood shelf│  ← ~10" off the ground (bucket, supplies)
         ├──┐          ┌─┤
         │  │          │ │
-        └──┘          └─┘
+        └──┴──────────┴─┘
+        │  base board   │  ← plywood on boot tray, prevents sinking into carpet
+        └───────────────┘
 ```
 
 ### Step 1 — Build two rectangular frames (top and bottom)
