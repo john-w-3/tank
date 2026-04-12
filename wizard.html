@@ -45,17 +45,46 @@ title: Stand Assembly Wizard
   }
   .view-3d:hover { background: #000; }
   .view-3d[aria-disabled="true"] { opacity: 0.5; pointer-events: none; }
+  .reference-links {
+    margin: 0 0 1.5em;
+    padding: 0.8em 1em;
+    background: #f5f5f5;
+    border-left: 3px solid #1a73e8;
+    border-radius: 4px;
+    font-size: 0.95em;
+  }
+  .reference-links .label {
+    color: #555;
+    font-weight: 600;
+    margin-right: 0.4em;
+  }
+  .reference-links a {
+    margin-right: 1em;
+    white-space: nowrap;
+  }
 </style>
 
 <div id="wizard">
 
+<div class="reference-links">
+  <span class="label">Reference:</span>
+  <a href="stand-build-plan.html">Full build plan</a>
+  <a href="#"
+     data-view3d
+     data-scad="stand-model.scad"
+     aria-disabled="true">Loading complete 3D model…</a>
+  <a href="stand-model.scad" download>Download .scad</a>
+</div>
+
 {% assign step_pages = site.pages | where_exp:"p","p.step_number" | sort:"step_number" %}
 {% for step in step_pages %}
-  <section class="wizard-step"
-           data-step="{{ step.step_number }}"
-           data-scad="steps/{{ step.scad_file }}">
+  <section class="wizard-step" data-step="{{ step.step_number }}">
     {{ step.content }}
-    <p><a class="view-3d" href="#" data-view3d aria-disabled="true">Loading 3D model link…</a></p>
+    <p><a class="view-3d"
+          href="#"
+          data-view3d
+          data-scad="steps/{{ step.scad_file }}"
+          aria-disabled="true">Loading 3D model link…</a></p>
   </section>
 {% endfor %}
 
@@ -118,10 +147,14 @@ title: Stand Assembly Wizard
     return 'https://ochafik.com/openscad2/#' + btoa(binary);
   }
 
-  for (const section of steps) {
-    const scadUrl = section.dataset.scad;
-    const link = section.querySelector('[data-view3d]');
-    if (!scadUrl || !link) continue;
+  // Any link on the page that has [data-view3d] + [data-scad="<path>"] gets
+  // its href replaced with a playground URL built from the fetched .scad file.
+  // This covers both the per-step links and the reference link at the top.
+  for (const link of document.querySelectorAll('[data-view3d][data-scad]')) {
+    const scadUrl = link.dataset.scad;
+    const doneLabel = link.classList.contains('view-3d')
+      ? 'Open 3D model →'
+      : 'Open complete 3D model →';
     fetch(scadUrl)
       .then(r => {
         if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -130,7 +163,7 @@ title: Stand Assembly Wizard
       .then(encodeScadUrl)
       .then(url => {
         link.href = url;
-        link.textContent = 'Open 3D model →';
+        link.textContent = doneLabel;
         link.target = '_blank';
         link.rel = 'noopener';
         link.removeAttribute('aria-disabled');
