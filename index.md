@@ -5,9 +5,13 @@ title: Shrimp Tank
 
 # Shrimp Tank
 
-6-gallon Neocaridina tank with nerite snails.
+A 6-gallon Neocaridina shrimp tank with nerite snails, built and documented like a software project: phased delivery with exit criteria, a 3D-modeled parts inventory for the stand, a LEGO-style step-by-step build guide, and a Raspberry Pi monitoring roadmap once the biology is stable.
 
-**Build guides:** [Stand Assembly Wizard](wizard.html) — step-by-step with tap-to-rotate 3D previews.
+**Start here:** [**Stand Assembly Wizard**](wizard.html) — tap-to-rotate 3D previews of each step, generated client-side from OpenSCAD files checked into the repo.
+
+[Cut List & Build Plan](stand-build-plan.html) · [Source on GitHub](https://github.com/john-w-3/tank)
+
+---
 
 ## Contents
 
