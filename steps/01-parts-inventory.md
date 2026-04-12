@@ -1,6 +1,11 @@
-# Step 1 — Parts Inventory
+---
+layout: default
+step_number: 1
+title: Parts Inventory
+scad_file: 01-parts-inventory.scad
+---
 
-**Open:** [`01-parts-inventory.scad`](01-parts-inventory.scad) in OpenSCAD, press **F5**.
+# Step 1 — Parts Inventory
 
 Before you drill anything or glue anything, lay all 15 cut pieces out on the floor or a workbench so you can see them at a glance. This is the woodworking version of dumping the LEGO bag onto the table and sorting before you start.
 

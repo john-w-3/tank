@@ -7,6 +7,8 @@ title: Shrimp Tank
 
 6-gallon Neocaridina tank with nerite snails.
 
+**Build guides:** [Stand Assembly Wizard]({{ '/wizard.html' | relative_url }}) — step-by-step with tap-to-rotate 3D previews.
+
 ## Contents
 
 - [Shopping List](#shopping-list)

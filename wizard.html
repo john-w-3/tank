@@ -1,0 +1,143 @@
+---
+layout: default
+title: Stand Assembly Wizard
+---
+
+<style>
+  .wizard-step { display: none; }
+  .wizard-step.active { display: block; }
+  .wizard-nav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 2em 0 1em;
+    padding: 1em 0;
+    border-top: 1px solid #ddd;
+  }
+  .wizard-nav button {
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .wizard-nav button:disabled {
+    background: #bbb;
+    cursor: not-allowed;
+  }
+  .wizard-nav .indicator {
+    flex: 1;
+    text-align: center;
+    color: #666;
+    font-weight: 600;
+  }
+  .view-3d {
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0.8em 1.4em;
+    background: #222;
+    color: gold;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .view-3d:hover { background: #000; }
+  .view-3d[aria-disabled="true"] { opacity: 0.5; pointer-events: none; }
+</style>
+
+<div id="wizard">
+
+{% assign step_pages = site.pages | where_exp:"p","p.step_number" | sort:"step_number" %}
+{% for step in step_pages %}
+  <section class="wizard-step"
+           data-step="{{ step.step_number }}"
+           data-scad="{{ '/steps/' | append: step.scad_file | relative_url }}">
+    {{ step.content }}
+    <p><a class="view-3d" href="#" data-view3d aria-disabled="true">Loading 3D model link…</a></p>
+  </section>
+{% endfor %}
+
+  <nav class="wizard-nav">
+    <button id="prev">← Previous</button>
+    <span class="indicator" id="indicator"></span>
+    <button id="next">Next →</button>
+  </nav>
+</div>
+
+<script>
+(() => {
+  const steps = Array.from(document.querySelectorAll('.wizard-step'));
+  const total = steps.length;
+  const prevBtn = document.getElementById('prev');
+  const nextBtn = document.getElementById('next');
+  const indicator = document.getElementById('indicator');
+  let current = 0;
+
+  function show(i) {
+    current = Math.max(0, Math.min(total - 1, i));
+    steps.forEach((el, idx) => el.classList.toggle('active', idx === current));
+    indicator.textContent = `Step ${current + 1} of ${total}`;
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === total - 1;
+    history.replaceState(null, '', '#step-' + (current + 1));
+    window.scrollTo(0, 0);
+  }
+
+  prevBtn.onclick = () => show(current - 1);
+  nextBtn.onclick = () => show(current + 1);
+
+  const m = location.hash.match(/step-(\d+)/);
+  show(m ? parseInt(m[1], 10) - 1 : 0);
+
+  // Build openscad2 playground URLs client-side.
+  // Uses CompressionStream('gzip'), built into modern browsers — no CDN dep.
+  // The .scad source stays in your browser: ochafik.com server never sees it
+  // (URL fragments aren't sent on HTTP requests).
+  async function encodeScadUrl(scadText) {
+    const state = {
+      params: {
+        activePath: '/playground.scad',
+        sources: [{ path: '/playground.scad', content: scadText }],
+        features: ['lazy-union'],
+        exportFormat2D: 'svg',
+        exportFormat3D: 'stl',
+      },
+      view: {
+        layout: { mode: 'single', focus: 'viewer' },
+        showAxes: true,
+        logs: false,
+      },
+    };
+    const json = JSON.stringify(state);
+    const stream = new Blob([json]).stream().pipeThrough(new CompressionStream('gzip'));
+    const buf = new Uint8Array(await new Response(stream).arrayBuffer());
+    let binary = '';
+    for (let i = 0; i < buf.length; i++) binary += String.fromCharCode(buf[i]);
+    return 'https://ochafik.com/openscad2/#' + btoa(binary);
+  }
+
+  for (const section of steps) {
+    const scadUrl = section.dataset.scad;
+    const link = section.querySelector('[data-view3d]');
+    if (!scadUrl || !link) continue;
+    fetch(scadUrl)
+      .then(r => {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.text();
+      })
+      .then(encodeScadUrl)
+      .then(url => {
+        link.href = url;
+        link.textContent = 'Open 3D model →';
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.removeAttribute('aria-disabled');
+      })
+      .catch(err => {
+        link.textContent = '3D link failed: ' + err.message;
+      });
+  }
+})();
+</script>
