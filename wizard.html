@@ -53,7 +53,7 @@ title: Stand Assembly Wizard
 {% for step in step_pages %}
   <section class="wizard-step"
            data-step="{{ step.step_number }}"
-           data-scad="{{ '/steps/' | append: step.scad_file | relative_url }}">
+           data-scad="steps/{{ step.scad_file }}">
     {{ step.content }}
     <p><a class="view-3d" href="#" data-view3d aria-disabled="true">Loading 3D model link…</a></p>
   </section>
