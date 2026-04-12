@@ -17,11 +17,26 @@ t           = 1.5;    // 2x4 narrow face
 w           = 3.5;    // 2x4 wide face
 fb_rail_len = 9;      // front/back rail length
 
-/* --- Pocket hole geometry (approximate — for visualization) --- */
-pkt_angle = 15;       // Kreg jig angle from vertical
-pkt_dia   = 0.375;    // ~3/8" stepped bit
-pkt_inset = 0.75;     // distance from end where the bit enters the face
-pkt_depth = 3.0;      // bit travel — long enough to punch through end grain
+/* --- Pocket hole geometry (approximate — for visualization) ---
+ *
+ * Kreg pocket hole for 1.5" stock:
+ *   - bit enters the wide face about 2" from the end
+ *   - bit travels at ~15 degrees from the face (i.e., nearly along
+ *     the board, tipped slightly down into it), NOT 15 from vertical
+ *   - with that geometry the bit exits the end grain near the middle
+ *     of the board's thickness — which is the whole point of the jig
+ *
+ * I model the hole as a stepped tunnel: a short fat counterbore (the
+ * "pocket" where the screw head sits) followed by a long skinny pilot
+ * that continues out through the end grain. */
+pkt_angle  = 15;      // bit tilt from the board's face (degrees)
+pkt_inset  = 2.0;     // distance from end where the bit enters the face
+
+pocket_dia = 0.375;   // counterbore / "pocket" diameter (~3/8")
+pocket_len = 0.9;     // counterbore depth along the bit axis
+
+pilot_dia  = 0.20;    // pilot hole diameter
+tunnel_len = 2.5;     // total tunnel length — punches through end grain
 
 /* --- Colors (match Step 1 so the rails read as the same pieces) --- */
 c_fbrail = [0.82, 0.55, 0.30];
@@ -29,13 +44,22 @@ c_text   = [0.05, 0.05, 0.05];
 
 /* --- Modules --- */
 
-// Pocket hole tunnel, entering the top (+Z) face and heading down
-// and toward +X (dir = +1) or -X (dir = -1), at pkt_angle from vertical.
-// Derivation: rotate([0, 180 - dir*pkt_angle, 0]) maps the default
-// cylinder axis (+Z) to (dir*sin(a), 0, -cos(a)).
+// Pocket hole tunnel, entering the top (+Z) face and heading mostly
+// along the rail (toward +X if dir=+1, toward -X if dir=-1), tipped
+// pkt_angle degrees down from horizontal. This is the real Kreg
+// geometry: bit nearly parallel to the face, exiting at the end grain.
+//
+// Derivation: rotate([0, dir*(90+pkt_angle), 0]) maps the default
+// +Z cylinder axis to (dir*cos(a), 0, -sin(a)).  That gives a
+// tunnel that goes cos(15)≈0.97 along the rail for every sin(15)≈0.26
+// it drops into the board.
 module pocket_hole_tunnel(dir) {
-    rotate([0, 180 - dir * pkt_angle, 0])
-        cylinder(h = pkt_depth, d = pkt_dia, $fn = 28);
+    rotate([0, dir * (90 + pkt_angle), 0]) {
+        // 3/8" counterbore — the "pocket" where the screw head sits
+        cylinder(h = pocket_len, d = pocket_dia, $fn = 28);
+        // narrower pilot hole — continues out through the end grain
+        cylinder(h = tunnel_len, d = pilot_dia, $fn = 24);
+    }
 }
 
 module rail_with_pockets() {
