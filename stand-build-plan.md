@@ -1,3 +1,7 @@
+---
+title: "Cut List & Build Plan (16×16)"
+---
+
 # 6-Gallon Cube Stand (16×16) — Cut List & Build Plan
 
 Design: Solid legs at the corners with rails between them, shelf with corner notches, ~34" tall, 16×16" top. Clean, simple look.

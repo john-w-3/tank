@@ -1,2 +1,16 @@
 title: Shrimp Tank
 theme: minima
+
+# Only these show up in the minima header nav.
+header_pages:
+  - index.md
+  - wizard.html
+
+# Keep the archive and tooling in the repo, but don't publish them.
+exclude:
+  - orig
+  - scad2url.py
+  - test-batman.scad
+  - package.json
+  - package-lock.json
+  - README.md
