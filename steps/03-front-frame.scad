@@ -43,34 +43,40 @@ c_text   = [0.05, 0.05, 0.05];
 
 /* --- Modules --- */
 
-// Pocket hole tunnel — same geometry as Step 2. Tunnel enters the
-// rail's "inside" face (the face pointing toward the back of the
-// stand) and exits the end grain.
-module pocket_hole_tunnel(dir) {
-    rotate([0, dir * (90 + pkt_angle), 0]) {
-        cylinder(h = pocket_len, d = pocket_dia, $fn = 28);
-        cylinder(h = tunnel_len, d = pilot_dia, $fn = 24);
-    }
+// Pocket hole tunnel for a rail standing ON EDGE (wide face = ±Y).
+// Tunnel enters the BACK wide face (y = t) and travels mostly along
+// the rail (±X) with a slight tilt INTO the wood (-Y), exiting the
+// end grain near the center of the 1.5" thickness.
+//
+// Derivation: default cylinder is along +Z. rotate([90, 0, 0]) sends
+// +Z to -Y. Then rotate([0, 0, dir*(90 - pkt_angle)]) swings that
+// axis around vertical so it points mostly along ±X with a small -Y
+// component. For pkt_angle = 15: dir*75° rotation gives axis
+// (sin(dir*75), -cos(dir*75), 0) = (±0.966, -0.259, 0).
+module pocket_hole_tunnel_onedge(dir) {
+    rotate([0, 0, dir * (90 - pkt_angle)])
+        rotate([90, 0, 0]) {
+            cylinder(h = pocket_len, d = pocket_dia, $fn = 28);
+            cylinder(h = tunnel_len, d = pilot_dia, $fn = 24);
+        }
 }
 
 // One front-frame rail with both pocket holes drilled, oriented as
 // it sits in the assembled ladder: long axis along X (between the
 // legs), 1.5" thickness along Y (front-to-back), 3.5" along Z
-// (vertical, on edge).
+// (vertical, on edge). Holes enter the BACK face (y = t), centered
+// on the rail's height (z = w/2), 2" from each end.
 module front_rail() {
     difference() {
         color(c_fbrail) cube([fb_rail_len, t, w]);
 
-        // Pocket holes drilled from the BACK face of the rail (y = t),
-        // angled toward each end so the screw exits the end grain
-        // and bites into the leg.
-        translate([pkt_inset, t, w])
-            rotate([180, 0, 0])      // flip tunnel so it enters from +Y face
-                pocket_hole_tunnel(-1);
+        // Hole at the x = 0 end — tunnel tilts toward -X
+        translate([pkt_inset, t + 0.01, w/2])
+            pocket_hole_tunnel_onedge(-1);
 
-        translate([fb_rail_len - pkt_inset, t, w])
-            rotate([180, 0, 0])
-                pocket_hole_tunnel(+1);
+        // Hole at the x = fb_rail_len end — tunnel tilts toward +X
+        translate([fb_rail_len - pkt_inset, t + 0.01, w/2])
+            pocket_hole_tunnel_onedge(+1);
     }
 }
 
@@ -112,10 +118,12 @@ translate([w, 0, top_rail_z]) front_rail();
 translate([w, 0, btm_rail_z]) front_rail();
 
 // Pocket screw markers — one at each end of each rail, on the
-// inside (back) face where the screw head seats.
+// inside (back) face where the screw head seats inside the
+// counterbore. Sits at the center of the rail's vertical face,
+// 2" from each end, just outside y = t so it's visible.
 for (rz = [top_rail_z, btm_rail_z])
     for (ex = [w + pkt_inset, w + fb_rail_len - pkt_inset])
-        pocket_screw_marker(ex, t + 0.05, rz + w - 0.4);
+        pocket_screw_marker(ex, t + 0.05, rz + w/2);
 
 /* --- Annotations --- */
 
