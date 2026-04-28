@@ -65,4 +65,4 @@ The 13" left/right rails don't have this problem — they sit *outside* the fron
 
 Four rails, eight clean pocket holes, all on matching faces. Put the prepped 9" rails back in their pile (holes up, so you don't lose track of which face is which). The 13" rails, legs, and plywood squares are untouched — leave them alone.
 
-**Say "ready" and I'll give you Step 3** (assembling the top frame: front and back legs joined by the prepped 9" rails, then tied together with the 13" side rails).
+**Say "ready" and I'll give you Step 3** — joining 2 legs and 2 of the prepped 9" rails into the front "ladder" sub-assembly. Step 4 will be the same thing for the back; Step 5 ties the two ladders together with the 13" side rails.
