@@ -21,7 +21,7 @@ panel       = 16;          // plywood squares
 /* --- Z positions (from floor) --- */
 base_z      = 0;
 leg_z       = ply;                     // legs rest on base board
-btm_frame_z = 10;                      // bottom frame ~10" from floor
+btm_frame_z = leg_z + 10;              // bottom frame 10" up from leg bottom (matches build plan)
 shelf_z     = btm_frame_z + w;         // shelf sits on top of bottom frame
 top_frame_z = leg_z + leg_len - w;     // top frame flush with leg tops
 top_ply_z   = leg_z + leg_len;         // top panel on legs/frame

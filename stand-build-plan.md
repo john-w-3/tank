@@ -12,11 +12,12 @@ Design: Solid legs at the corners with rails between them, shelf with corner not
 
 - [ ] 3× 2×4 × 8' studs — sight down each board and reject any that are bowed or twisted
 - [ ] 3/4" plywood — ask staff to cut three 16×16" squares (free, they have a panel saw)
-- [ ] Box of 3" wood screws (#8 or #9, ~25 count) — for side rails, plywood panels, base board
-- [ ] Box of 2.5" coarse-thread pocket hole screws (~10 count) — for front/back rails
+- [ ] 1-lb box of 3" wood screws (#8 or #9, ~50 count) — for side rails, plywood panels, base board (uses ~28; the rest are good to have)
+- [ ] Small box of 2.5" coarse-thread pocket hole screws (~25 count) — for front/back rails (uses 8). Confirm the box ships with a #2 square (Robertson) driver bit, or grab one separately
 - [ ] Titebond II or III wood glue (small bottle)
 - [ ] Can of black spray paint (paint+primer combo)
-- [ ] Can of water-based polyurethane (satin or semi-gloss) — clear coat goes over the paint (water-based won't react with spray paint like oil-based can)
+- [ ] Can of water-based polyurethane (satin or semi-gloss) — clear coat goes over the paint (water-based won't react with spray paint like oil-based can). **Wipe-on poly is more forgiving for a beginner** — no brush, no visible brush marks
+- [ ] Foam brush or chip brush (skip if you got wipe-on poly)
 - [ ] Sandpaper — one sheet of 120 grit, one sheet of 220 grit
 - [ ] Cheap foam mat or yoga mat (dollar store works too)
 - [ ] Plastic boot tray or waterproof mat (~$5-10, goes under the stand on carpet)
@@ -28,7 +29,9 @@ Design: Solid legs at the corners with rails between them, shelf with corner not
 - [ ] Drill/driver
 - [ ] Drill bit set (need one bit slightly thinner than the screws, for pre-drilling)
 - [ ] Pocket hole jig (Kreg makes a basic one for ~$25 — or borrow one)
-- [ ] 2+ clamps (makes squaring frames much easier — hold pieces in place while glue sets)
+- [ ] 2+ clamps (makes squaring frames much easier — hold pieces in place while glue sets) — at least one pair should open to ≥16"
+- [ ] Speed square or framing square (for square-checking joints as you assemble)
+- [ ] Tape measure and pencil
 
 If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to own regardless.
 
@@ -40,8 +43,8 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 |-----|----------|---------|
 | 3 | 2×4 × 8' studs | Legs + rails |
 | 1 | 3/4" plywood, 2×4' piece (or have a 4×8 sheet cut at the store) | Top, shelf + base board |
-| 1 | Box of 3" wood screws (#8 or #9) | Side rails, plywood panels, base board |
-| 1 | Box of 2.5" coarse-thread pocket hole screws | Front/back rail-to-leg joints |
+| 1 | 1-lb box of 3" wood screws (#8 or #9, ~50 ct) | Side rails, plywood panels, base board (uses ~28) |
+| 1 | Box of 2.5" coarse-thread pocket hole screws (~25 ct) | Front/back rail-to-leg joints (uses 8) |
 | 1 | Wood glue (Titebond II or III — water resistant) | Joints |
 | 1 | Can of black spray paint (paint+primer combo) | Color coat |
 | 1 | Can of water-based polyurethane | Seal against water (water-based is safe over spray paint) |
@@ -154,30 +157,44 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 - Four 9" pieces (front/back rails, top + bottom)
 - Four 13" pieces (left/right rails, top + bottom)
 
-### Step 3 — Attach rails to legs (top frame first)
+> **Approach:** build the front and back as flat "ladder" sub-assemblies first, then stand them up and connect them with the side rails. Doing it this way means each ladder lies flat on the floor while the glue sets — gravity holds the joints, clamping is easy, and you never have to assemble in 3D. The wizard walks each step in detail; the bullet form below is the summary.
 
-- Stand two front legs upright, spaced 16" apart (outside edge to outside edge)
-- **Front/back rails (9" pieces) — pocket screws:** drill a pocket hole in each end of the rail using the jig, on the inside face. Glue the joint, clamp, then drive a 2.5" pocket screw into the leg. One pocket screw per end.
-- **Left/right rails (13" pieces) — through-screws:** glue the joint, pre-drill through the outer face of the leg (the 1.5" narrow face), then drive one 3" screw through the leg into the rail end. One screw per end.
-- Repeat for the back rail with the two back legs
-- Connect front and back assemblies with the two 13" side rails
-- Check for square — measure diagonals, they should be equal
+### Step 3 — Drill pocket holes in the four 9" rails
 
-### Step 4 — Attach bottom rails
+- Each 9" rail gets one pocket hole at each end (8 holes total) on the same wide face — that's the "inside" face when assembled
+- Set the Kreg jig for 1½" stock, set the bit's stop collar at the 1½" mark
+- The 13" rails, legs, and plywood squares get **no** pocket holes — only the 9s
 
-- Measure 10" up from the bottom of each leg, mark it
-- Attach all four bottom rails the same way as the top
-- These support the shelf
+### Step 4 — Build the front ladder (2 legs + 2 prepped 9" rails)
 
-### Step 5 — Attach plywood panels
+- Lay two legs flat on their wide faces, parallel, with their tops aligned
+- The two prepped 9" rails go *between* the legs, on edge, pocket holes facing up
+- **Top rail:** flush with the top ends of both legs
+- **Bottom rail:** measure **10" up from the bottom end of each leg** and mark — the rail's bottom edge sits on that line
+- Glue end grain → slide rail into place → clamp → square-check → drive a 2.5" pocket screw into each pocket hole. 4 pocket screws total.
+- Leave the ladder undisturbed for ~30 minutes while glue sets
+
+### Step 5 — Build the back ladder
+
+- Identical to Step 4, using the other 2 legs + the other 2 prepped 9" rails
+- 4 more pocket screws (8 total across both ladders)
+
+### Step 6 — Connect the two ladders with the 13" side rails
+
+- Stand both ladders up parallel, 13" apart (this gap is set by the rail length)
+- **Left/right rails (13" pieces) — through-screws:** glue the rail's end grain, position it between the legs flush with the top of the top rails (or 10" up from leg bottom for the bottom side rails), pre-drill through the outer face of the leg (the 1.5" narrow face), then drive one 3" screw through the leg into the rail end. One screw per end.
+- 4 side rails × 2 ends = **8 through-screws**
+- Check for square — measure diagonals across the top frame; they should be equal. Same for the bottom frame.
+
+### Step 7 — Attach plywood panels
 
 - Set the 16×16 top panel on the top frame, flush with the leg tops
-- Glue + screw down into the frame rails (two 3" screws per rail)
+- Glue + screw down into the frame rails (two 3" screws per rail = 8 total)
 - Notch the shelf panel corners (3.5" × 1.5" at each corner)
 - Drop the shelf panel onto the bottom rails — it fits around the legs
-- Glue + screw the shelf to the rails (two 3" screws per rail)
+- Glue + screw the shelf to the rails (two 3" screws per rail = 8 total)
 
-### Step 6 — Finish
+### Step 8 — Finish
 
 - Sand everything smooth (120 grit, then 220)
 - Apply 2-3 light coats of black spray paint, letting each coat dry before the next
@@ -185,7 +202,7 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 - Pay extra attention to the top — that's where water will drip
 - Give plywood edges an extra coat or two — cut edges absorb water like a sponge
 
-### Step 7 — Place (on carpet)
+### Step 9 — Place (on carpet)
 
 - Lay a plastic boot tray or waterproof mat where the stand will go — catches drips before they hit carpet
 - Set the base board (third plywood square) on top of the tray — this gives the legs a flat, solid surface so they don't sink unevenly into the carpet pad
