@@ -12,7 +12,7 @@ Design: Solid legs at the corners with rails between them, shelf with corner not
 
 - [ ] 3× 2×4 × 8' studs — sight down each board and reject any that are bowed or twisted
 - [ ] 3/4" plywood — ask staff to cut three 16×16" squares (free, they have a panel saw)
-- [ ] 1-lb box of 3" wood screws (#8 or #9, ~50 count) — for side rails, plywood panels, base board (uses ~28; the rest are good to have)
+- [ ] 1-lb box of 3" wood screws (#8 or #9, ~50 count) — for side rails and plywood panels (uses ~24; the rest are good to have)
 - [ ] Small box of 2.5" coarse-thread pocket hole screws (~25 count) — for front/back rails (uses 8). Confirm the box ships with a #2 square (Robertson) driver bit, or grab one separately
 - [ ] Titebond II or III wood glue (small bottle)
 - [ ] Can of black spray paint (paint+primer combo)
@@ -43,7 +43,7 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 |-----|----------|---------|
 | 3 | 2×4 × 8' studs | Legs + rails |
 | 1 | 3/4" plywood, 2×4' piece (or have a 4×8 sheet cut at the store) | Top, shelf + base board |
-| 1 | 1-lb box of 3" wood screws (#8 or #9, ~50 ct) | Side rails, plywood panels, base board (uses ~28) |
+| 1 | 1-lb box of 3" wood screws (#8 or #9, ~50 ct) | Side rails, plywood panels (uses ~24) |
 | 1 | Box of 2.5" coarse-thread pocket hole screws (~25 ct) | Front/back rail-to-leg joints (uses 8) |
 | 1 | Wood glue (Titebond II or III — water resistant) | Joints |
 | 1 | Can of black spray paint (paint+primer combo) | Color coat |
@@ -206,6 +206,7 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 
 - Lay a plastic boot tray or waterproof mat where the stand will go — catches drips before they hit carpet
 - Set the base board (third plywood square) on top of the tray — this gives the legs a flat, solid surface so they don't sink unevenly into the carpet pad
+- **Don't screw the base board to the legs.** The stand's weight (~70 lbs with a full tank) holds it in place. Leaving it loose lets you slide shims between the board and individual legs if the carpet compresses unevenly over time.
 - Set the stand on the base board
 - Check level with a phone level app or a real level — shim between base board and stand legs if needed
 - Cut a piece of foam mat to ~14×14", place on top, set tank on foam

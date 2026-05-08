@@ -95,11 +95,6 @@ module screw_markers() {
             translate([panel-t/2, panel+sr,  sz]) sphere(sr, $fn=12);
         }
 
-        /* Base board → legs (4 screws, up through bottom) */
-        for (lx = [w/2, panel-w/2])
-            for (ly = [t/2, panel-t/2])
-                translate([lx, ly, -sr]) sphere(sr, $fn=12);
-
         /* Top panel → top frame rails (8 screws, down from top) */
         for (fx = [w + fb_rail_len*0.33, w + fb_rail_len*0.67]) {
             translate([fx, t/2,       tp_z]) sphere(sr, $fn=12);
