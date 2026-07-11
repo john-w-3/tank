@@ -76,11 +76,13 @@ module screw_markers() {
     sh_z = shelf_z + ply + sr;      // shelf top surface + offset
 
     color("red") {
-        /* Rail-to-leg joints: 1 screw per face × 8 joints × 2 frames
-           X and Y screws staggered vertically to avoid crossing */
+        /* Rail-to-leg joints: 1 screw per joint × 8 joints × 2 frames.
+           Pocket and through screws sit at the same height but never
+           meet — the pocket screw stops ~1" short of the through-screw
+           line inside the leg */
         for (fz = [btm_frame_z, top_frame_z]) {
             sz = fz + w / 2;  // centered in rail height
-            po = 0.75;        // pocket hole offset from rail end
+            po = 2.0;         // pocket hole inset from rail end (Kreg entry, matches step models)
             // Front/back rails — pocket screws on inside face of rail
             // Front rail inside face (y = t), near FL and FR ends
             translate([w + po,              t + sr,       sz]) sphere(sr, $fn=12);

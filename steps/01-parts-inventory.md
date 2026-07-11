@@ -27,6 +27,7 @@ Three of the 2×4 pieces look almost the same (the 9" and 13" rails are close in
 - [ ] All four 9" rails match each other. Same check.
 - [ ] All four 13" rails match each other. Same check.
 - [ ] The three plywood squares are actually square (check with a framing square, or measure both diagonals — they should be equal).
+- [ ] If one plywood square came out a hair short (~15¾") — that's saw kerf, not a mistake. Mark it as the **base board**; it goes under the legs where the exact size never shows.
 - [ ] No cracks running along the grain near the ends of the 2×4s — if you see one, swap that piece out.
 
 ## Why matching lengths matters
@@ -37,4 +38,4 @@ Matching rail pairs is even more important: if your two front rails are differen
 
 ## When you're done
 
-You should be looking at something that resembles the SCAD preview: four neat piles of lumber plus three plywood squares, all accounted for. **Say "ready" and I'll give you Step 2** (drilling pocket holes in the 9" rails).
+You should be looking at something that resembles the SCAD preview: four neat piles of lumber plus three plywood squares, all accounted for. **Hit Next for Step 2** — drilling pocket holes in the 9" rails.

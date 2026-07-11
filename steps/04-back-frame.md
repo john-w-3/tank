@@ -41,7 +41,7 @@ Follow Step 3 exactly:
 
 ## Let it sit
 
-Same as before — **30 minutes minimum** before moving. Use the time to clean up glue drips, sweep up sawdust, and admire your work. You've now used all 12 of the 2×4 cut pieces.
+Same as before — **30 minutes minimum** before moving. Use the time to clean up glue drips, sweep up sawdust, and admire your work. You've now used 8 of the 12 2×4 pieces — the four 13" side rails are still waiting for Step 5.
 
 ## What's next
 

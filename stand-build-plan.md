@@ -11,7 +11,7 @@ Design: Solid legs at the corners with rails between them, shelf with corner not
 ## Shopping List — One Trip to Lowe's / Home Depot
 
 - [ ] 3× 2×4 × 8' studs — sight down each board and reject any that are bowed or twisted
-- [ ] 3/4" plywood — ask staff to cut three 16×16" squares (free, they have a panel saw)
+- [ ] 3/4" plywood — ask staff to cut three 16×16" squares (free, they have a panel saw). Saw kerf means the third square comes out ~15¾" — that's fine, that one becomes the base board
 - [ ] 1-lb box of 3" wood screws (#8 or #9, ~50 count) — for side rails and plywood panels (uses ~24; the rest are good to have)
 - [ ] Small box of 2.5" coarse-thread pocket hole screws (~25 count) — for front/back rails (uses 8). Confirm the box ships with a #2 square (Robertson) driver bit, or grab one separately
 - [ ] Titebond II or III wood glue (small bottle)
@@ -52,7 +52,7 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 | 1 | Thin foam mat or yoga mat scrap | Goes between stand top and tank |
 | 1 | Plastic boot tray or waterproof mat | Goes under the stand to protect carpet from drips |
 
-Home Depot / Lowe's will cut the plywood for you at the store for free — ask them to cut three 16×16" squares (top, shelf, and base board for carpet). Three 16" pieces fit exactly across a 48" board.
+Home Depot / Lowe's will cut the plywood for you at the store for free — ask them to cut three 16×16" squares (top, shelf, and base board for carpet). One kerf note: each saw cut eats about ⅛", so three full 16" squares don't quite fit across a 48" board — the third piece comes out around 15¾". That's fine: designate the short one as the base board, where the exact size never shows.
 
 ## Cut List
 
@@ -64,7 +64,7 @@ Home Depot / Lowe's will cut the plywood for you at the store for free — ask t
 | Front/back rails | 9" | 4 | Span between legs along the front and back (2 top + 2 bottom) |
 | Left/right rails | 13" | 4 | Span between legs along the sides (2 top + 2 bottom) |
 
-That's 12 cuts total from three 8' studs.
+That's 12 cuts total from three 8' studs. The legs run the full height of the stand — no breaks at the shelf.
 
 ### From the plywood (3/4"):
 
@@ -102,7 +102,7 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 ## Assembly
 
 ```
-  front view                          side view (thin leg edge faces front)
+  ladder face (a side, once placed)    display face (thin leg edges; faces front)
 
   ┌──────────────────────┐            ┌──────────────────┐
   │     plywood top      │            │   plywood top    │
@@ -147,25 +147,21 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
   └───┴─────────┴───┘
 ```
 
-### Step 1 — Cut four legs
+> **Approach:** make the 12 cuts from the Cut List first, then build the front and back as flat "ladder" sub-assemblies, stand them up, and connect them with the side rails. Doing it this way means each ladder lies flat on the floor while the glue sets — gravity holds the joints, clamping is easy, and you never have to assemble in 3D. Step numbers here match the [wizard](wizard.html), which walks each step in detail with a 3D preview; if one format ever needs finer granularity than the other, a step splits into lettered sub-steps (5a, 5b, …) instead of renumbering.
 
-- Cut four 32.25" pieces from the 2×4s
-- These run the full height of the stand — no breaks at the shelf
+### Step 1 — Lay out and inventory the pieces
 
-### Step 2 — Cut eight rails
+- All 15 cut pieces in front of you: 4 legs (32.25"), 4 front/back rails (9"), 4 left/right rails (13"), 3 plywood squares (16×16")
+- Sort the 9s and 13s into separate piles — they look similar, and mixing them up mid-assembly costs time
+- Check that pieces within each group match in length; the wizard's Step 1 has the full checklist
 
-- Four 9" pieces (front/back rails, top + bottom)
-- Four 13" pieces (left/right rails, top + bottom)
-
-> **Approach:** build the front and back as flat "ladder" sub-assemblies first, then stand them up and connect them with the side rails. Doing it this way means each ladder lies flat on the floor while the glue sets — gravity holds the joints, clamping is easy, and you never have to assemble in 3D. The wizard walks each step in detail; the bullet form below is the summary.
-
-### Step 3 — Drill pocket holes in the four 9" rails
+### Step 2 — Drill pocket holes in the four 9" rails
 
 - Each 9" rail gets one pocket hole at each end (8 holes total) on the same wide face — that's the "inside" face when assembled
 - Set the Kreg jig for 1½" stock, set the bit's stop collar at the 1½" mark
 - The 13" rails, legs, and plywood squares get **no** pocket holes — only the 9s
 
-### Step 4 — Build the front ladder (2 legs + 2 prepped 9" rails)
+### Step 3 — Build the front ladder (2 legs + 2 prepped 9" rails)
 
 - Lay two legs flat on their wide faces, parallel, with their tops aligned
 - The two prepped 9" rails go *between* the legs, on edge, pocket holes facing up
@@ -174,19 +170,20 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 - Glue end grain → slide rail into place → clamp → square-check → drive a 2.5" pocket screw into each pocket hole. 4 pocket screws total.
 - Leave the ladder undisturbed for ~30 minutes while glue sets
 
-### Step 5 — Build the back ladder
+### Step 4 — Build the back ladder
 
-- Identical to Step 4, using the other 2 legs + the other 2 prepped 9" rails
+- Identical to Step 3, using the other 2 legs + the other 2 prepped 9" rails
 - 4 more pocket screws (8 total across both ladders)
 
-### Step 6 — Connect the two ladders with the 13" side rails
+### Step 5 — Connect the two ladders with the 13" side rails
 
 - Stand both ladders up parallel, 13" apart (this gap is set by the rail length)
-- **Left/right rails (13" pieces) — through-screws:** glue the rail's end grain, position it between the legs flush with the top of the top rails (or 10" up from leg bottom for the bottom side rails), pre-drill through the outer face of the leg (the 1.5" narrow face), then drive one 3" screw through the leg into the rail end. One screw per end.
-- 4 side rails × 2 ends = **8 through-screws**
+- **Left/right rails (13" pieces) — through-screws:** glue the rail's end grain, position it between the legs flush with the top of the top rails (or 10" up from leg bottom for the bottom side rails), then pre-drill and drive one 3" screw through the leg into the rail end. One screw per end.
+- **Drill through the leg's wide (3½") face** — the same face the ladder rails sit on — ¾" in from the leg's outer side edge, centered on the rail's height. The screw passes through the leg's 1½" thickness into the rail's end grain. (Not the narrow 1½" side face — the rail isn't behind that one.)
+- 4 side rails × 2 ends = **8 through-screws**. The heads land on the two ladder faces; that's expected — Step 8 turns those faces to the sides when the stand is placed
 - Check for square — measure diagonals across the top frame; they should be equal. Same for the bottom frame.
 
-### Step 7 — Attach plywood panels
+### Step 6 — Attach plywood panels
 
 - Set the 16×16 top panel on the top frame, flush with the leg tops
 - Glue + screw down into the frame rails (two 3" screws per rail = 8 total)
@@ -194,7 +191,7 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 - Drop the shelf panel onto the bottom rails — it fits around the legs
 - Glue + screw the shelf to the rails (two 3" screws per rail = 8 total)
 
-### Step 8 — Finish
+### Step 7 — Finish
 
 - Sand everything smooth (120 grit, then 220)
 - Apply 2-3 light coats of black spray paint, letting each coat dry before the next
@@ -202,12 +199,13 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 - Pay extra attention to the top — that's where water will drip
 - Give plywood edges an extra coat or two — cut edges absorb water like a sponge
 
-### Step 9 — Place (on carpet)
+### Step 8 — Place (on carpet)
 
 - Lay a plastic boot tray or waterproof mat where the stand will go — catches drips before they hit carpet
 - Set the base board (third plywood square) on top of the tray — this gives the legs a flat, solid surface so they don't sink unevenly into the carpet pad
 - **Don't screw the base board to the legs.** The stand's weight (~70 lbs with a full tank) holds it in place. Leaving it loose lets you slide shims between the board and individual legs if the carpet compresses unevenly over time.
 - Set the stand on the base board
+- **Orientation:** turn the stand so the two ladder faces (the ones with the through-screw heads) point left/right. The face with the thin leg edges and a 13" rail faces front — no visible screw heads from the front (this is the orientation the 3D model shows)
 - Check level with a phone level app or a real level — shim between base board and stand legs if needed
 - Cut a piece of foam mat to ~14×14", place on top, set tank on foam
 

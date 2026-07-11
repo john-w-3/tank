@@ -50,7 +50,7 @@ Takes maybe 1-2 minutes per hole once you have a rhythm.
 
 - [ ] **8 pocket holes total** — 4 rails × 2 ends
 - [ ] Every hole on a given rail is on the **same wide face**, and **all four rails** have their holes on the same face (orientation matches)
-- [ ] Each hole **broke through cleanly** at the end grain — look at the end of each rail; you should see a little oval opening where the bit came through. If any hole didn't quite punch through, bump the stop collar slightly deeper and redrill just that one.
+- [ ] **Depth looks consistent** across all 8 holes. With the collar set at the 1½" mark, the pilot ends up right around the end grain — a small oval opening at the end, or stopping ⅛" shy of it, are both correct. The screw makes its own exit when driven, so don't chase breakthrough by deepening the collar.
 - [ ] **No holes on the 13" rails.** The 13s don't get pocket holes — they get through-screws from the leg face in a later step. If you catch yourself drilling one, stop.
 - [ ] **No holes in the legs or plywood.** Same reason.
 - [ ] Chips cleared out of each hole (tap the rail on the bench, or puff them out)
@@ -65,4 +65,4 @@ The 13" left/right rails don't have this problem — they sit *outside* the fron
 
 Four rails, eight clean pocket holes, all on matching faces. Put the prepped 9" rails back in their pile (holes up, so you don't lose track of which face is which). The 13" rails, legs, and plywood squares are untouched — leave them alone.
 
-**Say "ready" and I'll give you Step 3** — joining 2 legs and 2 of the prepped 9" rails into the front "ladder" sub-assembly. Step 4 will be the same thing for the back; Step 5 ties the two ladders together with the 13" side rails.
+**Hit Next for Step 3** — joining 2 legs and 2 of the prepped 9" rails into the front "ladder" sub-assembly. Step 4 will be the same thing for the back; Step 5 ties the two ladders together with the 13" side rails.

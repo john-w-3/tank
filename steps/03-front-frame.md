@@ -89,8 +89,8 @@ Glue is what's actually doing most of the structural work. The screws just hold 
 
 The 13" side rails (the longer ones) connect the front ladder to the back ladder. There is no back ladder yet, so there's nothing to connect to. We build the back ladder identically in Step 4, then in Step 5 we'll stand both ladders up, lay the 13" rails between them, and screw through the leg faces.
 
-This is also why we're using **pocket screws on the 9" rails specifically**: the legs sit *outside* the 9s, so a normal screw driven from the outside of the leg would have its head visible on the front of the finished stand. Pocket screws come from the inside, hidden. The 13" rails will use through-screws because the legs sit *inside* of them (on the side faces, not the front), and a screw head on the side face is fine.
+This is also why we're using **pocket screws on the 9" rails specifically**: their ends butt against the leg's narrow edge, so a through-screw would have to travel the full 3½" depth of the leg (needing a 5" screw), and its head would sit on the thin leg edge — the face that ends up as the front of the placed stand. Pocket screws come from the inside instead: hidden, shorter, stronger. The 13" rails don't have this problem — their ends butt the leg's *wide* face, so a normal 3" screw passes through just 1½" of leg. Its head lands on the ladder face, which gets turned to the side when the stand is placed. Right joinery for each joint.
 
 ## When you're done
 
-One flat, square front ladder lying on the floor. Two legs joined by two 9" rails. **Say "ready" and I'll give you Step 4** — building the back ladder, which is literally the same step again with the other 2 legs and the other 2 prepped 9" rails.
+One flat, square front ladder lying on the floor. Two legs joined by two 9" rails. **Hit Next for Step 4** — building the back ladder, which is literally the same step again with the other 2 legs and the other 2 prepped 9" rails.
