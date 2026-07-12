@@ -78,10 +78,15 @@ module screw_markers(clr) {
                     sphere(0.18, $fn = 18);
 }
 
-module label(txt, size = 1.2) {
+// Upright text facing the viewer. The ladders stand in the XZ plane
+// with the front of the scene at -Y, so labels rotate up to match and
+// extrude slightly toward -Y (toward the camera). Depth (y) placement
+// still says which ladder a label belongs to.
+module label(txt, size = 1.2, halign = "left") {
     color(c_text)
-        linear_extrude(0.08)
-            text(txt, size = size, halign = "left", valign = "bottom");
+        rotate([90, 0, 0])
+            linear_extrude(0.08)
+                text(txt, size = size, halign = halign, valign = "bottom");
 }
 
 /* --- Assembly: both ladders at final spacing --- */
@@ -100,17 +105,17 @@ translate([0, panel, 0])
 
 /* --- Annotations --- */
 
-// Ladder labels
-translate([0, -2.5, -2.5])
-    label("FRONT (Step 3)", 0.9);
+// Ladder labels — centered under each ladder, at that ladder's depth
+translate([panel/2, -0.5, -2.5])
+    label("FRONT (Step 3)", 0.9, halign = "center");
 
-translate([0, panel + 0.5, -2.5])
-    label("BACK (Step 4)", 0.9);
+translate([panel/2, panel + 0.5, -2.5])
+    label("BACK (Step 4)", 0.9, halign = "center");
 
 // Gap dimension — where side rails will go
-translate([panel/2 - 4.5, panel/2 - 0.5, -4.5])
-    label("← 13 in gap — side rails (Step 5) →", 0.7);
+translate([panel/2, panel/2, -4.5])
+    label("← 13 in gap — side rails (Step 5) →", 0.7, halign = "center");
 
 // Title
-translate([0, -2.5, -6.5])
-    label("TWO IDENTICAL LADDERS  —  8 pocket screws total  →  ready for Step 5", 1.0);
+translate([panel/2, -0.5, -6.5])
+    label("TWO IDENTICAL LADDERS  —  8 pocket screws total  →  ready for Step 5", 1.0, halign = "center");

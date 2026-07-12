@@ -93,10 +93,14 @@ module pocket_screw_marker(x, y, z) {
     color(c_screw) translate([x, y, z]) sphere(0.18, $fn = 18);
 }
 
-module label(txt, size = 1.2) {
+// Upright text facing the viewer. The ladder stands in the XZ plane
+// with its front face at y = 0, so labels rotate up to match and
+// extrude slightly toward -Y (out of the scene, toward the camera).
+module label(txt, size = 1.2, halign = "left", valign = "bottom") {
     color(c_text)
-        linear_extrude(0.08)
-            text(txt, size = size, halign = "left", valign = "bottom");
+        rotate([90, 0, 0])
+            linear_extrude(0.08)
+                text(txt, size = size, halign = halign, valign = valign);
 }
 
 /* --- Assembly --- */
@@ -131,11 +135,11 @@ for (rz = [top_rail_z, btm_rail_z])
 color([0.2, 0.2, 0.2])
     translate([-1.2, -0.1, btm_rail_z - 0.04])
         cube([0.8, 0.05, 0.08]);
-translate([-3.5, -0.1, btm_rail_z - 0.6])
-    label("10 in", 0.8);
+translate([-1.6, 0, btm_rail_z])
+    label("10 in", 0.8, halign = "right", valign = "center");
 
-// Title strip below the ladder
-translate([0, 0, -2.5])
-    label("FRONT LADDER  —  2 legs + 2 prepped 9-in rails  +  4 pocket screws", 1.0);
-translate([0, 0, -4.0])
-    label("(Step 4 builds an identical back ladder with the other 2 legs + 2 rails)", 0.85);
+// Title strip below the ladder, centered on its width
+translate([panel/2, 0, -2.5])
+    label("FRONT LADDER  —  2 legs + 2 prepped 9-in rails  +  4 pocket screws", 1.0, halign = "center");
+translate([panel/2, 0, -4.0])
+    label("(Step 4 builds an identical back ladder with the other 2 legs + 2 rails)", 0.85, halign = "center");
