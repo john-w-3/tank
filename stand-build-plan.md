@@ -21,6 +21,7 @@ Design: Solid legs at the corners with rails between them, shelf with corner not
 - [ ] Sandpaper — one sheet of 120 grit, one sheet of 220 grit
 - [ ] Cheap foam mat or yoga mat (dollar store works too)
 - [ ] Plastic boot tray or waterproof mat (~$5-10, goes under the stand on carpet)
+- [ ] Bundle of tapered cedar shims (~$4) — for leveling the stand once it's in place
 
 ### Confirm tool access (brother-in-law)
 
@@ -51,6 +52,7 @@ If no drill available, buy a basic cordless drill/driver (~$40-60) — useful to
 | 2 | Sandpaper — 120 grit + 220 grit (one sheet each) | Smoothing before paint |
 | 1 | Thin foam mat or yoga mat scrap | Goes between stand top and tank |
 | 1 | Plastic boot tray or waterproof mat | Goes under the stand to protect carpet from drips |
+| 1 | Bundle of tapered cedar shims | Leveling the legs on an uneven floor |
 
 Home Depot / Lowe's will cut the plywood for you at the store for free — ask them to cut three 16×16" squares (top, shelf, and base board for carpet). One kerf note: each saw cut eats about ⅛", so three full 16" squares don't quite fit across a 48" board — the third piece comes out around 15¾". That's fine: designate the short one as the base board, where the exact size never shows.
 
@@ -167,7 +169,7 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 - The two prepped 9" rails go *between* the legs, on edge, pocket holes facing up
 - **Top rail:** flush with the top ends of both legs
 - **Bottom rail:** measure **10" up from the bottom end of each leg** and mark — the rail's bottom edge sits on that line
-- Glue end grain → slide rail into place → clamp → square-check → drive a 2.5" pocket screw into each pocket hole. 4 pocket screws total.
+- Glue only the cut end grain of each rail where it butts into the leg — a thin spread-out bead on the 1½" × 3½" end face, enough for slight squeeze-out → slide rail into place → clamp → square-check → drive a 2.5" pocket screw into each pocket hole. 4 pocket screws total.
 - Leave the ladder undisturbed for ~30 minutes while glue sets
 
 ### Step 4 — Build the back ladder
@@ -206,8 +208,35 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 - **Don't screw the base board to the legs.** The stand's weight (~70 lbs with a full tank) holds it in place. Leaving it loose lets you slide shims between the board and individual legs if the carpet compresses unevenly over time.
 - Set the stand on the base board
 - **Orientation:** turn the stand so the two ladder faces (the ones with the through-screw heads) point left/right. The face with the thin leg edges and a 13" rail faces front — no visible screw heads from the front (this is the orientation the 3D model shows)
-- Check level with a phone level app or a real level — shim between base board and stand legs if needed
+- Level and shim the stand — see [Leveling & Shimming](#leveling--shimming) below
 - Cut a piece of foam mat to ~14×14", place on top, set tank on foam
+
+## Leveling & Shimming
+
+Floors are never flat, and carpet makes it worse. Shimming is normal — it's how every stand gets set, not a sign you built it wrong.
+
+There are two separate problems, and only one of them is structural.
+
+**Rocking — fix this.** Three legs touch, the fourth floats. The whole load then rides on a diagonal and slowly racks the frame. Press down on each corner in turn: if any corner dips, it's rocking.
+
+**Tilt — mostly cosmetic.** All four legs bear weight, but the stand leans. You'll see it in the water line more than anywhere else. Worth correcting for looks; it isn't hurting the joints.
+
+### How to shim
+
+- **Use tapered cedar shims** (or hardwood scraps). Not cardboard, not folded paper, not a magazine — they compress over a few months and the rocking comes back
+- Shim **between the base board and the leg**, not under the base board. That's why the base board isn't screwed down (Step 8)
+- Slide the shim under the **whole leg footprint**, not just the outer edge — a leg balanced on a wedge tip is still a rocking leg
+- Two shims driven in from opposite sides give a flat, parallel pad instead of a wedge. This is the better way to do it
+- Snap or cut the excess flush with the leg once you're happy
+- Re-check: level on the **top panel**, both directions, then push each corner again to confirm zero rock
+
+### Let carpet settle first
+
+Carpet and pad compress under load. Set the stand up, put a couple gallons of water in the tank (or something equally heavy), and leave it a day. Then re-check level and re-shim. Doing it once at the start and once after settling saves you chasing it later.
+
+### What shimming can't fix
+
+If the **stand top itself** isn't flat — a twisted rail, a cupped plywood top — no amount of floor shimming helps. Lay a straightedge across the top before the tank goes on. That's what the foam mat is for: it absorbs small high spots so the tank bottom loads evenly instead of bearing on one ridge. Getting the frames square during assembly (Step 3-5 diagonal check) is what keeps this from being a problem.
 
 ## Tips for a First-Timer
 

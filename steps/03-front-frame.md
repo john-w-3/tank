@@ -41,7 +41,7 @@ Slide everything around until the joints close up tight (no daylight between rai
 Always do **one rail at a time** — glue, clamp, screw, *then* the next rail. Trying to glue both rails at once is a recipe for misalignment.
 
 1. **Slide the top rail out** of position by a few inches so you can reach the joint.
-2. **Apply a thin, even bead of glue** to the end grain of the rail (the 1½" × 3½" rectangle at the rail end). End grain soaks up glue, so this side gets the glue. A small puddle, not a thick stripe.
+2. **Apply glue only to the cut end of the rail** — the 1½" × 3½" rectangle that will butt against the leg. Use a thin continuous bead or small zigzag across that end face, then spread it so the whole end looks wet and glossy. You want enough that a tiny line squeezes out when clamped, but not so much that glue runs down the rail. Don't glue the long faces or the pocket-hole face.
 3. **Slide the rail back into position** — flush with the top of the leg, tight against the leg's inside face.
 4. **Wipe squeeze-out** with the damp rag. Glue dries clear-ish but it'll show under the spray paint.
 5. **Clamp.** Place a clamp across the joint, pulling the leg snug against the rail end. One clamp per joint is enough; you'll have one on each end of the rail. The clamp is doing the *holding*; the screw will do the *locking*.
@@ -63,7 +63,7 @@ The clamp can come off as soon as both screws are driven on that rail — the sc
 Same procedure, exactly:
 
 1. Find the **10" mark** on each leg (you should already have it pencilled).
-2. Glue the rail's end grain on both ends.
+2. Glue the rail's end grain on both ends: only the two cut 1½" × 3½" end faces that touch the legs, spread thin and even.
 3. Slide it into place — bottom edge on the 10" line, pocket holes facing up.
 4. Clamp at each joint.
 5. Square-check, then drive a 2.5" pocket screw into each pocket hole.
