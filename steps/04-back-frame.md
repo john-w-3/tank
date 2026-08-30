@@ -13,7 +13,7 @@ This is the same build as Step 3, using the remaining pieces. If Step 3 went smo
 
 - [ ] **The other 2 legs** (32.25")
 - [ ] **The other 2 prepped 9" rails** (the ones with pocket holes from Step 2)
-- [ ] Same tools and supplies as Step 3: wood glue, 2.5" pocket screws (4 more), drill/driver with square bit, tape measure, pencil, clamps, speed square, damp rag
+- [ ] Same tools and supplies as Step 3: wood glue, 2.5" pocket screws (4 more), drill/driver with square bit, tape measure, pencil, the 16"+ clamp, speed square, damp rag
 
 ## Build it
 

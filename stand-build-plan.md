@@ -30,7 +30,7 @@ Design: Solid legs at the corners with rails between them, shelf with corner not
 - [ ] Drill/driver
 - [ ] Drill bit set (need one bit slightly thinner than the screws, for pre-drilling)
 - [ ] Pocket hole jig (Kreg makes a basic one for ~$25 — or borrow one)
-- [ ] 2+ clamps (makes squaring frames much easier — hold pieces in place while glue sets) — at least one pair should open to ≥16"
+- [ ] 1-2 clamps that open to ≥16" (makes squaring frames much easier — hold pieces in place while glue sets). One clamp spanning both legs closes both ends of a rail at once, so one is enough; a second is optional
 - [ ] Speed square or framing square (for square-checking joints as you assemble)
 - [ ] Tape measure and pencil
 
@@ -169,7 +169,7 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 - The two prepped 9" rails go *between* the legs, on edge, pocket holes facing up
 - **Top rail:** flush with the top ends of both legs
 - **Bottom rail:** measure **10" up from the bottom end of each leg** and mark — the rail's bottom edge sits on that line
-- Glue only the cut end grain of each rail where it butts into the leg — a thin spread-out bead on the 1½" × 3½" end face, enough for slight squeeze-out → slide rail into place → clamp → square-check → drive a 2.5" pocket screw into each pocket hole. 4 pocket screws total.
+- Glue only the cut end grain of each rail where it butts into the leg — a thin spread-out bead on the 1½" × 3½" end face, enough for slight squeeze-out → slide rail into place → clamp *one* clamp across the full 16" width, jaws on the outer face of each leg (that closes both ends of the rail at once) → square-check → drive a 2.5" pocket screw into each pocket hole. 4 pocket screws total.
 - Leave the ladder undisturbed for ~30 minutes while glue sets
 
 ### Step 4 — Build the back ladder

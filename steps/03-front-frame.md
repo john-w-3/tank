@@ -19,7 +19,7 @@ Doing the front and back as separate flat sub-assemblies — instead of trying t
 - [ ] **2.5" coarse-thread pocket hole screws** — you'll drive 4 of these
 - [ ] **Drill/driver** with the **square (Robertson) bit** that came with the pocket screws — pocket screws use a square drive, not Phillips
 - [ ] **Tape measure + pencil**
-- [ ] **At least 2 clamps** (bar clamps, F-clamps, or quick clamps — anything that opens to 16"+)
+- [ ] **One clamp that opens to 16"+** (bar clamp, F-clamp, or quick clamp). A single clamp spanning both legs closes both ends of a rail at once — a second one is optional insurance, not a requirement
 - [ ] **A speed square or framing square** (or any reliable right-angle reference)
 - [ ] **Damp rag** for squeeze-out
 
@@ -36,7 +36,7 @@ Orient everything so:
 
 Slide everything around until the joints close up tight (no daylight between rail end and leg face). If a joint won't close, the cut wasn't quite square — sand the offending end lightly and try again.
 
-## Glue and clamp the top joint first
+## Glue and clamp the top rail first
 
 Always do **one rail at a time** — glue, clamp, screw, *then* the next rail. Trying to glue both rails at once is a recipe for misalignment.
 
@@ -44,12 +44,12 @@ Always do **one rail at a time** — glue, clamp, screw, *then* the next rail. T
 2. **Apply glue only to the cut end of the rail** — the 1½" × 3½" rectangle that will butt against the leg. Use a thin continuous bead or small zigzag across that end face, then spread it so the whole end looks wet and glossy. You want enough that a tiny line squeezes out when clamped, but not so much that glue runs down the rail. Don't glue the long faces or the pocket-hole face.
 3. **Slide the rail back into position** — flush with the top of the leg, tight against the leg's inside face.
 4. **Wipe squeeze-out** with the damp rag. Glue dries clear-ish but it'll show under the spray paint.
-5. **Clamp.** Place a clamp across the joint, pulling the leg snug against the rail end. One clamp per joint is enough; you'll have one on each end of the rail. The clamp is doing the *holding*; the screw will do the *locking*.
+5. **Clamp.** Run one clamp across the **full 16" width**, jaws on the *outer* face of each leg, and tighten until both legs pull snug against the rail's ends. One clamp per **rail**, not per joint — the pressure has to travel along the rail's length, so squeezing one end automatically squeezes the other. Center it on the rail's 3½" height. (A second clamp adds nothing structurally; it just keeps the rail from pivoting, so if you use two, put one near the rail's top edge and one near its bottom edge — both still spanning the full 16".) The clamp is doing the *holding*; the screw will do the *locking*.
 6. **Check square.** Hold a speed square in the inside corner where the rail meets the leg — the leg should be perpendicular to the rail. If it's slightly off, nudge it before driving the screw.
 
 ## Drive the pocket screws
 
-With the joint clamped:
+With the rail clamped:
 
 1. Chuck the **square driver bit** into your drill (it ships with the pocket screws — looks like a Robertson bit, ~6" long for reach).
 2. **Drop a 2.5" pocket screw into the pocket hole** — it'll seat itself in the counterbore.
@@ -65,7 +65,7 @@ Same procedure, exactly:
 1. Find the **10" mark** on each leg (you should already have it pencilled).
 2. Glue the rail's end grain on both ends: only the two cut 1½" × 3½" end faces that touch the legs, spread thin and even.
 3. Slide it into place — bottom edge on the 10" line, pocket holes facing up.
-4. Clamp at each joint.
+4. Clamp across the full 16" width, same as before.
 5. Square-check, then drive a 2.5" pocket screw into each pocket hole.
 
 When this rail is done, you've used 4 screws total on this ladder.
