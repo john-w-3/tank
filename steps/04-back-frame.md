@@ -28,7 +28,8 @@ Follow Step 3 exactly:
 ## What to watch for the second time around
 
 - **Match the first ladder's measurements exactly.** Before you screw anything, stand the two ladders side by side and compare: same height, same rail spacing, same overall width. If the bottom rail landed at 9⅞" instead of 10" on the first ladder, put this one at 9⅞" too — matching matters more than hitting the exact number.
-- **Same face orientation.** Pocket holes should be on the same relative face as the first ladder. When you eventually stand both ladders up facing each other, the pocket holes on both should face inward (toward each other).
+- **Build it exactly like the first one — don't try to pre-orient it for Step 5.** Flat on the floor, pocket holes up, same as before. There is no mirrored or "left-handed" version of this ladder to get wrong: it's symmetric side to side, so in Step 5 you stand both up and spin one 180° about its **vertical** axis, which is what puts the pocket holes face to face across the gap. Nothing you decide right now can spoil that.
+- **Don't flip a ladder end over end** to change which way it faces — that would put your 10" rail up near the top. Spinning about the vertical axis is the only move Step 5 needs.
 
 ## Sanity checks
 
@@ -36,6 +37,7 @@ Follow Step 3 exactly:
 - [ ] **Top rail flush** with leg tops
 - [ ] **Bottom rail** on the 10" line (or matching the first ladder exactly)
 - [ ] **Legs parallel** — same spacing top and bottom
+- [ ] **Face is flat** — run your hand across it; leg fronts and rail fronts in the same plane. Set back ~⅛" is fine, proud of the legs is not
 - [ ] **Glue squeeze-out wiped**
 - [ ] **Both ladders match** — lay them side by side and compare. Rail positions, overall width, and total height should be identical within ~⅛"
 
@@ -46,3 +48,5 @@ Same as before — **30 minutes minimum** before moving. Use the time to clean u
 ## What's next
 
 You have two identical flat ladders. In **Step 5**, you'll stand them up parallel, drop the four 13" side rails between them, and screw through the leg faces to build the full 3D frame. That's where it starts looking like a piece of furniture.
+
+**The wizard stops here for now** — Step 4 is the last one with its own 3D preview. Steps 5 through 8 (side rails, plywood panels, finishing, and placing the stand) are written up in the [full build plan](stand-build-plan.html). Pick up there while the glue cures.

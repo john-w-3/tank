@@ -63,10 +63,14 @@ Home Depot / Lowe's will cut the plywood for you at the store for free — ask t
 | Piece | Length | Qty | Purpose |
 |-------|--------|-----|---------|
 | Legs | 32.25" | 4 | Solid vertical legs, flush with outside corners |
-| Front/back rails | 9" | 4 | Span between legs along the front and back (2 top + 2 bottom) |
-| Left/right rails | 13" | 4 | Span between legs along the sides (2 top + 2 bottom) |
+| Front/back rails | 9" | 4 | Span between legs in the front and back ladders (2 top + 2 bottom) |
+| Left/right rails | 13" | 4 | Connect the two ladders (2 top + 2 bottom) |
 
 That's 12 cuts total from three 8' studs. The legs run the full height of the stand — no breaks at the shelf.
+
+A leg is 32.25", so only two fit per 8' stud — that's what sets the count at three studs. Two studs give you the four legs plus ~31" of offcut each; the third covers the rails with plenty left over.
+
+**A note on the rail names.** They describe the stand *as you assemble it*: the 9" rails go in the front and back ladders, the 13" rails run left-to-right between them. Step 8 then rotates the finished stand a quarter turn so the screw heads face sideways — so on the stand as it finally sits, the 9" rails are on the **left and right**, and the 13" rails face **front and back**. The names refer to assembly, not to the placed stand.
 
 ### From the plywood (3/4"):
 
@@ -205,7 +209,7 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 
 - Lay a plastic boot tray or waterproof mat where the stand will go — catches drips before they hit carpet
 - Set the base board (third plywood square) on top of the tray — this gives the legs a flat, solid surface so they don't sink unevenly into the carpet pad
-- **Don't screw the base board to the legs.** The stand's weight (~70 lbs with a full tank) holds it in place. Leaving it loose lets you slide shims between the board and individual legs if the carpet compresses unevenly over time.
+- **Don't screw the base board to the legs.** The stand's weight holds it in place — roughly 110 lbs all in (~35 lbs of stand, ~75 lbs of tank once it's filled and scaped). Leaving it loose lets you slide shims between the board and individual legs if the carpet compresses unevenly over time.
 - Set the stand on the base board
 - **Orientation:** turn the stand so the two ladder faces (the ones with the through-screw heads) point left/right. The face with the thin leg edges and a 13" rail faces front — no visible screw heads from the front (this is the orientation the 3D model shows)
 - Level and shim the stand — see [Leveling & Shimming](#leveling--shimming) below

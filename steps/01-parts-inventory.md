@@ -18,7 +18,7 @@ Before you drill anything or glue anything, lay all 15 cut pieces out on the flo
 | Left/right rails | 4 | 13" long | Slightly longer than the F/B rails. No pocket holes — they get screwed through the leg face. |
 | Plywood squares | 3 | 16" × 16" × ¾" | Top, shelf, and base board. All identical for now — you'll notch one of them later. |
 
-Three of the 2×4 pieces look almost the same (the 9" and 13" rails are close in length), which is exactly why sorting them now matters. **Put the 9s in one pile and the 13s in another.** If you mix them up mid-assembly you'll waste time re-measuring.
+The eight rail pieces come in two lengths that are easy to confuse once they're jumbled in a pile — 9" and 13" look a lot alike lying on a floor, and nothing about them says which is which. That's exactly why sorting them now matters. **Put the 9s in one pile and the 13s in another.** If you mix them up mid-assembly you'll waste time re-measuring.
 
 ## Quick sanity checks
 

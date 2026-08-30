@@ -35,10 +35,16 @@ def shorten(long_url: str) -> str:
     api = "https://is.gd/create.php?format=simple&url=" + urllib.parse.quote(long_url, safe="")
     try:
         req = urllib.request.Request(api, headers={"User-Agent": UA})
-        return urllib.request.urlopen(req, timeout=15).read().decode().strip()
+        short = urllib.request.urlopen(req, timeout=15).read().decode().strip()
     except Exception as e:
         print(f"# is.gd failed ({e}); returning long URL", file=sys.stderr)
         return long_url
+    # is.gd answers HTTP 200 with a plain-text error body for its own
+    # failures ("Error, database insert failed"), so check the shape.
+    if not short.startswith("https://is.gd/"):
+        print(f"# is.gd said: {short!r}; returning long URL", file=sys.stderr)
+        return long_url
+    return short
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

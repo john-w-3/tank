@@ -61,12 +61,20 @@ module plywood_panel(z) {
             cube([panel, panel, ply]);
 }
 
-// Shelf panel (full 16×16 square — corners overlap with legs in the model,
-// but in real life you'll notch the corners to fit around them)
+// Shelf panel — 16×16 square with a w × t (3.5" × 1.5") notch at each
+// corner so it drops around the legs and lands on the bottom frame.
+// Notch positions are derived from the leg positions below, so the two
+// can't drift apart.
 module shelf_panel(z) {
     color(c_ply)
         translate([0, 0, z])
-            cube([panel, panel, ply]);
+            difference() {
+                cube([panel, panel, ply]);
+                for (nx = [0, panel - w])
+                    for (ny = [0, panel - t])
+                        translate([nx, ny, -0.1])
+                            cube([w, t, ply + 0.2]);
+            }
 }
 
 /* --- Screw markers (red dots on outside surfaces) --- */

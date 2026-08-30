@@ -99,6 +99,11 @@ title: Stand Assembly Wizard
 (() => {
   const steps = Array.from(document.querySelectorAll('.wizard-step'));
   const total = steps.length;
+  // The build plan has 8 steps; only the first `total` are authored as
+  // wizard pages with a 3D preview. Show progress against the real total
+  // so "Step 4 of 4" doesn't read as "the stand is finished".
+  const PLANNED_TOTAL = 8;
+  const PLAN_URL = 'stand-build-plan.html';
   const prevBtn = document.getElementById('prev');
   const nextBtn = document.getElementById('next');
   const indicator = document.getElementById('indicator');
@@ -107,15 +112,27 @@ title: Stand Assembly Wizard
   function show(i) {
     current = Math.max(0, Math.min(total - 1, i));
     steps.forEach((el, idx) => el.classList.toggle('active', idx === current));
-    indicator.textContent = `Step ${current + 1} of ${total}`;
+    indicator.textContent = `Step ${current + 1} of ${PLANNED_TOTAL}`;
     prevBtn.disabled = current === 0;
-    nextBtn.disabled = current === total - 1;
+    // At the last authored step, hand off to the full plan instead of
+    // dead-ending on a greyed-out button.
+    const atHandoff = current === total - 1 && total < PLANNED_TOTAL;
+    nextBtn.disabled = current === total - 1 && !atHandoff;
+    nextBtn.textContent = atHandoff
+      ? `Steps ${total + 1}-${PLANNED_TOTAL} in the full plan →`
+      : 'Next →';
     history.replaceState(null, '', '#step-' + (current + 1));
     window.scrollTo(0, 0);
   }
 
   prevBtn.onclick = () => show(current - 1);
-  nextBtn.onclick = () => show(current + 1);
+  nextBtn.onclick = () => {
+    if (current === total - 1 && total < PLANNED_TOTAL) {
+      location.href = PLAN_URL;
+      return;
+    }
+    show(current + 1);
+  };
 
   const m = location.hash.match(/step-(\d+)/);
   show(m ? parseInt(m[1], 10) - 1 : 0);
