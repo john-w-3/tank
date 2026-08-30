@@ -49,4 +49,4 @@ Same as before — **30 minutes minimum** before moving. Use the time to clean u
 
 You have two identical flat ladders. In **Step 5**, you'll stand them up parallel, drop the four 13" side rails between them, and screw through the leg faces to build the full 3D frame. That's where it starts looking like a piece of furniture.
 
-**The wizard stops here for now** — Step 4 is the last one with its own 3D preview. Steps 5 through 8 (side rails, plywood panels, finishing, and placing the stand) are written up in the [full build plan](stand-build-plan.html). Pick up there while the glue cures.
+Step 5 is where the build stops being flat, so read it through before you start — the assembly order matters more there than it did here.

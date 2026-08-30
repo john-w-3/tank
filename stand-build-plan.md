@@ -183,7 +183,8 @@ A jigsaw makes quick work of these. A hand saw works too — just two straight c
 
 ### Step 5 — Connect the two ladders with the 13" side rails
 
-- Stand both ladders up parallel, 13" apart (this gap is set by the rail length)
+- Turn the ladders so their pocket-hole faces point at each other — spin one 180° about its **vertical** axis, not end over end. The 13" gap between them is set by the rail length; you never measure it
+- **Build this one lying down, not standing up.** Lay one ladder flat with its pocket face up, stand the four 13" rails on end in position, lower the second ladder onto them, clamp, screw the four joints you can reach, then flip the assembly and do the other four. Dry-fit the whole stack once before any glue goes on
 - **Left/right rails (13" pieces) — through-screws:** glue the rail's end grain, position it between the legs, then pre-drill and drive one 3" screw through the leg into the rail end. One screw per end.
 - **Height: match the ladders, not the drawing.** Top side rails go flush with the top of the ladders' top rails. Bottom side rails line up with the **top edge of the ladders' bottom rails** — measure that edge on the ladder you already built rather than re-measuring 10" from the leg bottom. If your bottom rail landed a hair off 10", the side rails need to be off by the same hair: all four bottom rails have to sit in one plane or the shelf rocks. Lay a straightedge across from ladder to ladder to confirm before screwing.
 - **Drill through the leg's wide (3½") face** — the same face the ladder rails sit on — ¾" in from the leg's outer side edge, centered on the rail's height. The screw passes through the leg's 1½" thickness into the rail's end grain. (Not the narrow 1½" side face — the rail isn't behind that one.)
