@@ -82,6 +82,15 @@ module label(txt, size = 1.2) {
             text(txt, size = size, halign = "left", valign = "bottom");
 }
 
+// Step banner — same format in every step model, so a preview always
+// says which step you're looking at even when opened on its own.
+c_step = [0.10, 0.30, 0.55];
+module step_banner(txt) {
+    color(c_step)
+        linear_extrude(0.10)
+            text(txt, size = 2.4, halign = "left", valign = "bottom");
+}
+
 /* --- Layout: the four prepped rails, stacked like an exploded parts page --- */
 pitch   = w + 1.0;   // extra gap so the holes are easy to see
 tag_gap = 0.6;
@@ -94,3 +103,7 @@ translate([0, 4 * pitch + tag_gap, 0])
 
 translate([0, 4 * pitch + tag_gap + 2.0, 0])
     label("holes all on the SAME wide face of each rail", 0.9);
+
+// ---- Step banner, above everything ----
+translate([0, 4 * pitch + tag_gap + 5.5, 0])
+    step_banner("STEP 2 of 8  —  POCKET HOLES");

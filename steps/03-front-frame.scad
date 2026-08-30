@@ -103,6 +103,17 @@ module label(txt, size = 1.2, halign = "left", valign = "bottom") {
                 text(txt, size = size, halign = halign, valign = valign);
 }
 
+// Step banner — same format in every step model, so a preview always
+// says which step you're looking at even when opened on its own.
+// Stands upright above the assembly, facing the viewer like label().
+c_step = [0.10, 0.30, 0.55];
+module step_banner(txt) {
+    color(c_step)
+        rotate([90, 0, 0])
+            linear_extrude(0.10)
+                text(txt, size = 2.0, halign = "center", valign = "bottom");
+}
+
 /* --- Assembly --- */
 
 // Left leg at x = 0, right leg at x = panel - w. Both legs sit with
@@ -143,3 +154,7 @@ translate([panel/2, 0, -2.5])
     label("FRONT LADDER  —  2 legs + 2 prepped 9-in rails  +  4 pocket screws", 1.0, halign = "center");
 translate([panel/2, 0, -4.0])
     label("(Step 4 builds an identical back ladder with the other 2 legs + 2 rails)", 0.85, halign = "center");
+
+// Step banner, above the ladder
+translate([panel/2, 0, leg_len + 2.0])
+    step_banner("STEP 3 of 8  —  FRONT LADDER");

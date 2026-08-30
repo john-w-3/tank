@@ -89,6 +89,17 @@ module label(txt, size = 1.2, halign = "left") {
                 text(txt, size = size, halign = halign, valign = "bottom");
 }
 
+// Step banner — same format in every step model, so a preview always
+// says which step you're looking at even when opened on its own.
+// Stands upright above the assembly, facing the viewer like label().
+c_step = [0.10, 0.30, 0.55];
+module step_banner(txt) {
+    color(c_step)
+        rotate([90, 0, 0])
+            linear_extrude(0.10)
+                text(txt, size = 2.0, halign = "center", valign = "bottom");
+}
+
 /* --- Assembly: both ladders at final spacing --- */
 
 // Front ladder (Step 3 — already built, translucent)
@@ -119,3 +130,7 @@ translate([panel/2, panel/2, -4.5])
 // Title
 translate([panel/2, -0.5, -6.5])
     label("TWO IDENTICAL LADDERS  —  8 pocket screws total  →  ready for Step 5", 1.0, halign = "center");
+
+// Step banner, above the ladders
+translate([panel/2, -0.5, leg_len + 2.0])
+    step_banner("STEP 4 of 8  —  BACK LADDER");

@@ -98,6 +98,17 @@ module label(txt, size = 1.2, halign = "left", valign = "bottom") {
                 text(txt, size = size, halign = halign, valign = valign);
 }
 
+// Step banner — same format in every step model, so a preview always
+// says which step you're looking at even when opened on its own.
+// Stands upright above the assembly, facing the viewer like label().
+c_step = [0.10, 0.30, 0.55];
+module step_banner(txt) {
+    color(c_step)
+        rotate([90, 0, 0])
+            linear_extrude(0.10)
+                text(txt, size = 2.0, halign = "center", valign = "bottom");
+}
+
 /* --- Assembly --- */
 
 // Front ladder — outer face at y = 0, pockets facing +Y (inward)
@@ -135,3 +146,7 @@ translate([panel/2, panel/2, -3.7])
     label("screws enter the leg's wide face, 3/4 in from its outer side edge", 0.8, halign = "center");
 translate([panel/2, panel/2, -5.2])
     label("check both frames for square: the two diagonals must match", 0.8, halign = "center");
+
+// Step banner, above the frame
+translate([panel/2, -0.5, leg_len + 2.0])
+    step_banner("STEP 5 of 8  —  SIDE RAILS");

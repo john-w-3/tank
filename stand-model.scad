@@ -166,6 +166,15 @@ translate([-panel/2, -panel/2, 0])
             cube([tank_size, tank_size, tank_size]);
 }
 
+// Banner — matches the per-step models in steps/*.scad, so any preview
+// says what you're looking at when opened on its own.
+translate([panel/2, -0.5, 48])
+    color([0.10, 0.30, 0.55])
+        rotate([90, 0, 0])
+            linear_extrude(0.10)
+                text("COMPLETE STAND  —  all 8 steps", size = 2.0,
+                     halign = "center", valign = "bottom");
+
 // Computer desk (for scale reference, placed beside stand)
 desk_x = panel + 14;   // gap right of stand
 desk_l = 40;

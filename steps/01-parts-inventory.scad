@@ -39,6 +39,15 @@ module label(txt, size = 1.3) {
             text(txt, size = size, halign = "left", valign = "bottom");
 }
 
+// Step banner — same format in every step model, so a preview always
+// says which step you're looking at even when opened on its own.
+c_step = [0.10, 0.30, 0.55];
+module step_banner(txt) {
+    color(c_step)
+        linear_extrude(0.10)
+            text(txt, size = 2.4, halign = "left", valign = "bottom");
+}
+
 /* --- Layout --- */
 pitch   = w + 0.75;   // spacing between stacked boards in a row
 row_gap = 4;          // gap between different part groups
@@ -71,3 +80,7 @@ for (i = [0:2])
     translate([i * (panel_size + 2), row4_y, 0]) plywood_sq();
 translate([0, row4_y + panel_size + tag_gap, 0])
     label("3x  PLYWOOD SQUARE  —  16 x 16 in x 3/4 in");
+
+// ---- Step banner, above everything ----
+translate([0, row4_y + panel_size + tag_gap + 3.5, 0])
+    step_banner("STEP 1 of 8  —  PARTS INVENTORY");
